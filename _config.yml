@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Alexander James Root"
-  avatar           : "images/athens.jpg"
-  bio              : "Undergraduate at MIT, interested in PL, performance, and security"
+  avatar           : "athens.jpg"
+  bio              : "Undergraduate at MIT. Interested in PL, performance, and security"
   location         : "Cambridge, MA"
   employer         :
   pubmed           : 
