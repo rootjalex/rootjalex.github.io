@@ -64,19 +64,11 @@ Work experience
 Skills
 ------
 * Languages
-  * C
-  * C++
-  * Halide (DSL)
-  * Go
-  * Python
-  * Java
+  * C, C++, Halide (DSL), Go, Python, Java
 * Testing
-  * PyUnit
-  * mock
-  * JUnit
+  * PyUnit, mock, JUnit
 * Tools
-  * git
-  * gdb
+  * git, gdb, z3, ns3
 * AWS
 * OpenMPI
 
