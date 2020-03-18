@@ -20,7 +20,7 @@ Work experience
   * Duties included: 
     * Developing ArcGIS tools in Python
     * Implementing querying tools in C++ for large financial datasets.
-  * Supervisor: [Professor Cayton Polen](https://www.linkedin.com/in/cayton-polen-48562a18/)
+  * Supervisor: [Professor Cayton Polen](https://www.linkedin.com/in/cayton-polen-48562a18/){:target="_blank"}
 <br/>
 <br/>
 
@@ -30,15 +30,15 @@ Work experience
     * Drafting large-scale image processing pipelines on AWS
     * Automating deployment of a data-gathering website
     * Testing mission-critical software
-  * Supervisor: [Christian Ulstrup](https://www.linkedin.com/in/christianulstrup/)
+  * Supervisor: [Christian Ulstrup](https://www.linkedin.com/in/christianulstrup/){:target="_blank"}
 <br/>
 <br/>
 
 * Spring 2019: **Research Assistant**
   * *Computer Structures Group (MIT CSAIL)*
   * Duties included: 
-    * Designing data structures for use in a new parallel programming model, the [Swarm Architecture](http://people.csail.mit.edu/sanchez/papers/2016.swarm.toppicks.pdf)
-  * Supervisor: [Professor Daniel Sanchez](https://people.csail.mit.edu/sanchez/)
+    * Designing data structures for use in a new parallel programming model, the [Swarm Architecture](http://people.csail.mit.edu/sanchez/papers/2016.swarm.toppicks.pdf){:target="_blank"}
+  * Supervisor: [Professor Daniel Sanchez](https://people.csail.mit.edu/sanchez/){:target="_blank"}
 <br/>
 <br/>
 
@@ -48,16 +48,16 @@ Work experience
     * Developing and testing distributed and decentralized optimization models in C++
     * Profiling existing versions in order to remove bottlenecks 
     * Modelling networks using ns3
-  * Supervisor: [Dr. Steve Chapin](https://www.linkedin.com/in/steve-chapin-53788/)
+  * Supervisor: [Dr. Steve Chapin](https://www.linkedin.com/in/steve-chapin-53788/){:target="_blank"}
 <br/>
 <br/>
 
 * Fall 2019 - Present: **Research Assistant**
   * *Computer Graphics Group (MIT CSAIL)*
   * Duties include: 
-    * Working on new language constructs for the [Halide](https://halide-lang.org) programming language, to facilitate fixed point numeric types and optimizations. 
+    * Working on new language constructs for the [Halide](https://halide-lang.org){:target="_blank"} programming language, to facilitate fixed point numeric types and optimizations. 
     * Researching ways to use affine arithmetic to determine optimal parameters for fixed point computation. 
-  * Supervisors: [Professor Fredo Durand](https://people.csail.mit.edu/fredo/) and [Professor Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/)
+  * Supervisors: [Professor Fredo Durand](https://people.csail.mit.edu/fredo/){:target="_blank"} and [Professor Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/){:target="_blank"}
 
 <br/>
 
@@ -92,5 +92,5 @@ Teaching
   
 Service and leadership
 ------
-* Member of MIT EECS [Undergraduate Student Advisory Group](https://www.eecs.mit.edu/node/6866)
-* Second year in MIT's [Community Catalyst Leadership Program](https://alum.mit.edu/cclp)
+* Member of MIT EECS [Undergraduate Student Advisory Group](https://www.eecs.mit.edu/node/6866){:target="_blank"}
+* Second year in MIT's [Community Catalyst Leadership Program](https://alum.mit.edu/cclp){:target="_blank"}
