@@ -11,42 +11,67 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science & Engineering, 2021 (expected)
+<!-- * M.S. in Jekyll, GitHub University, 2014
+* Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2017: Software Intern
+  * Redding Electric Utility
+  * Duties included: Developing ArcGIS tools in Python, implementing querying tools in C++ for large financial datasets.
+  * Supervisor: [Professor Cayton Polen](https://www.linkedin.com/in/cayton-polen-48562a18/)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Spring/Summer 2018: Associate Software Engineer
+  * Iterative Scopes
+  * Duties included: Drafting large-scale image processing pipelines on AWS, automating deployment of a data-gathering website, and testing mission-critical software
+  * Supervisor: [Christian Ulstrup](https://www.linkedin.com/in/christianulstrup/)
+
+* Spring 2019: Research Assistant
+  * MIT CSAIL Computer Structures Group
+  * Duties included: Designing data structures for use in a new parallel programming model, the [Swarm Architecture](http://people.csail.mit.edu/sanchez/papers/2016.swarm.toppicks.pdf)
+  * Supervisor: [Professor Daniel Sanchez](https://people.csail.mit.edu/sanchez/)
+
+* Summer 2019: Cybersecurity Intern
+  * Lawrence Livermore National Lab
+  * Duties included: Developing and testing distributed and decentralized optimization models in C++, profiling existing versions in order to remove bottlenecks, and modelling networks using ns3
+  * Supervisor: [Dr. Steve Chapin](https://www.linkedin.com/in/steve-chapin-53788/)
+
+* Fall 2019 - Present: Research Assistant
+  * MIT CSAIL Computer Graphics Group
+  * Duties included: Working on new language constructs for the [Halide](https://halide-lang.org) programming language, to facilitate fixed point numeric types and optimizations. Researching ways to use affine arithmetic to determine optimal parameters for fixed point computation. 
+  * Supervisors: [Professor Fredo Durand](https://people.csail.mit.edu/fredo/) and [Professor Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/)
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages
+  * C
+  * C++
+  * Halide (DSL)
+  * Go
+  * Python
+  * Java
+* Testing
+  * PyUnit
+  * mock
+  * JUnit
+* Tools
+  * git
+  * gdb
+* AWS
+* OpenMPI
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Teaching
 ======
@@ -56,4 +81,5 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Member of MIT EECS [Undergraduate Student Advisory Group](https://www.eecs.mit.edu/node/6866)
+* Second year in MIT's [Community Catalyst Leadership Program](https://alum.mit.edu/cclp)
