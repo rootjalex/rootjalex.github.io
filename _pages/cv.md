@@ -10,11 +10,11 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+------
 * B.S. in Computer Science & Engineering @ MIT, 2021 (expected)
 
 Work experience
-======
+------
 * Summer 2017: **Software Intern**
   * *Redding Electric Utility*
   * Duties included: 
@@ -60,10 +60,9 @@ Work experience
   * Supervisors: [Professor Fredo Durand](https://people.csail.mit.edu/fredo/) and [Professor Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/)
 
 <br/>
-<br/>
 
 Skills
-======
+------
 * Languages
   * C
   * C++
@@ -94,12 +93,12 @@ Skills
   {% endfor %}</ul> -->
   
 Teaching
-======
+------
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Service and leadership
-======
+------s
 * Member of MIT EECS [Undergraduate Student Advisory Group](https://www.eecs.mit.edu/node/6866)
 * Second year in MIT's [Community Catalyst Leadership Program](https://alum.mit.edu/cclp)
