@@ -11,7 +11,7 @@ title                    : "Alexander J. Root"
 title_separator          : "-"
 name                     : "Alexander James Root"
 description              : "Undergraduate at MIT"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://rootjalex.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rootjalex.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Alexander James Root"
-  avatar           : "athens.jpg"
+  avatar           : "images/athens.jpg"
   bio              : "Undergraduate at MIT, interested in PL, performance, and security"
   location         : "Cambridge, MA"
   employer         :
