@@ -54,7 +54,7 @@ Work experience
 
 * Fall 2019 - Present: **Research Assistant**
   * *Computer Graphics Group (MIT CSAIL)*
-  * Duties included: 
+  * Duties include: 
     * Working on new language constructs for the [Halide](https://halide-lang.org) programming language, to facilitate fixed point numeric types and optimizations. 
     * Researching ways to use affine arithmetic to determine optimal parameters for fixed point computation. 
   * Supervisors: [Professor Fredo Durand](https://people.csail.mit.edu/fredo/) and [Professor Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/)
@@ -91,6 +91,6 @@ Teaching
   {% endfor %}</ul>
   
 Service and leadership
-------s
+------
 * Member of MIT EECS [Undergraduate Student Advisory Group](https://www.eecs.mit.edu/node/6866)
 * Second year in MIT's [Community Catalyst Leadership Program](https://alum.mit.edu/cclp)
