@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science & Engineering, 2021 (expected)
+* B.S. in Computer Science & Engineering @ MIT, 2021 (expected)
 
 Work experience
 ======
@@ -20,7 +20,7 @@ Work experience
   * Duties included: Developing ArcGIS tools in Python, implementing querying tools in C++ for large financial datasets.
   * Supervisor: [Professor Cayton Polen](https://www.linkedin.com/in/cayton-polen-48562a18/)
 
-
+<br/>
 * Spring/Summer 2018: Associate Software Engineer
   * Iterative Scopes
   * Duties included: Drafting large-scale image processing pipelines on AWS, automating deployment of a data-gathering website, and testing mission-critical software
@@ -44,7 +44,7 @@ Work experience
   * Duties included: Working on new language constructs for the [Halide](https://halide-lang.org) programming language, to facilitate fixed point numeric types and optimizations. Researching ways to use affine arithmetic to determine optimal parameters for fixed point computation. 
   * Supervisors: [Professor Fredo Durand](https://people.csail.mit.edu/fredo/) and [Professor Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/)
   
-  
+
 Skills
 ======
 * Languages
