@@ -22,6 +22,7 @@ Work experience
     * Implementing querying tools in C++ for large financial datasets.
   * Supervisor: [Professor Cayton Polen](https://www.linkedin.com/in/cayton-polen-48562a18/)
 <br/>
+<br/>
 
 * Spring/Summer 2018: **Associate Software Engineer**
   * *Iterative Scopes*
@@ -31,12 +32,14 @@ Work experience
     * Testing mission-critical software
   * Supervisor: [Christian Ulstrup](https://www.linkedin.com/in/christianulstrup/)
 <br/>
+<br/>
 
 * Spring 2019: **Research Assistant**
   * *Computer Structures Group (MIT CSAIL)*
   * Duties included: 
     * Designing data structures for use in a new parallel programming model, the [Swarm Architecture](http://people.csail.mit.edu/sanchez/papers/2016.swarm.toppicks.pdf)
   * Supervisor: [Professor Daniel Sanchez](https://people.csail.mit.edu/sanchez/)
+<br/>
 <br/>
 
 * Summer 2019: **Cybersecurity Intern**
@@ -47,6 +50,7 @@ Work experience
     * Modelling networks using ns3
   * Supervisor: [Dr. Steve Chapin](https://www.linkedin.com/in/steve-chapin-53788/)
 <br/>
+<br/>
 
 * Fall 2019 - Present: **Research Assistant**
   * *Computer Graphics Group (MIT CSAIL)*
@@ -54,7 +58,9 @@ Work experience
     * Working on new language constructs for the [Halide](https://halide-lang.org) programming language, to facilitate fixed point numeric types and optimizations. 
     * Researching ways to use affine arithmetic to determine optimal parameters for fixed point computation. 
   * Supervisors: [Professor Fredo Durand](https://people.csail.mit.edu/fredo/) and [Professor Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/)
-  
+
+<br/>
+<br/>
 
 Skills
 ======
