@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Alexander James, and welcome to my website! It's a little barebones at the moment, but I will be adding to it during the boredom that is quarantine.
+Hi! I'm Alexander, and welcome to my website! It's a little barebones at the moment, but I will be adding to it during the boredom that is quarantine.
 
 Professional
 ------
