@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Alexander J. Root"
+title                    : "AJR"
 title_separator          : "-"
-name                     : "Alexander James Root"
+name                     : "Alexander Root"
 description              : "Undergraduate at MIT"
 url                      : https://rootjalex.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Alexander James Root"
+  name             : "Alexander Root"
   avatar           : "athens.jpg"
   bio              : "Undergrad at MIT"
   location         : "Cambridge, MA"
