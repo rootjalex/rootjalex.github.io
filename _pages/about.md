@@ -18,7 +18,7 @@ I am a student researcher at CSAIL in the Computer Graphics group, where I work 
 
 I previously worked on the [Swarm Architecture](http://people.csail.mit.edu/sanchez/papers/2016.swarm.toppicks.pdf){:target="_blank"} for parallel programming.
 
-I'm broadly interested in programming languages, performance engineering, computer architecture, and security.
+My research interests are broadly in computer systems, including but not limited to: programming languages, performance engineering, computer architecture, and security.
 
 
 Personal
