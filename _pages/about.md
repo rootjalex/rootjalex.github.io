@@ -8,18 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Alexander, and welcome to my website! It's a little barebones at the moment, but I will be adding to it during the boredom that is quarantine.
+Hi! I'm Alexander James, and welcome to my website! It's a little barebones at the moment, but I will be adding to it during the boredom that is quarantine.
 
 Professional
 ------
 I'm an S.B. Candidate at MIT, pursuing a degree in Computer Science & Engineering.
 
-I am a student researcher at CSAIL in the Computer Graphics group, where I work with [Professor Fredo Durand](https://people.csail.mit.edu/fredo/){:target="_blank"} and [Professor Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/){:target="_blank"} on the [Halide](https://halide-lang.org){:target="_blank"} programming language. 
+I am a student researcher at CSAIL in the Computer Graphics group, where I work with [Frédo Durand](https://people.csail.mit.edu/fredo/){:target="_blank"} and [Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/){:target="_blank"} on the [Halide](https://halide-lang.org){:target="_blank"} programming language. 
 
-I previously worked the [Swarm Architecture](http://people.csail.mit.edu/sanchez/papers/2016.swarm.toppicks.pdf){:target="_blank"} for parallel programming.
+I previously worked on the [Swarm Architecture](http://people.csail.mit.edu/sanchez/papers/2016.swarm.toppicks.pdf){:target="_blank"} for parallel programming.
 I'm broadly interested in programming languages, performance engineering, computer architecture, and security.
 
 
 Personal
 ------
-I'm an active member of MIT's [Deutsches Haus](http://dh.scripts.mit.edu/home/){:target="_blank"}, the German cultural community, an avid hiker, and amateur Spanish speaker. I love to travel, and have been to Israel and Spain for MIT's [MISTI](https://misti.mit.edu){:target="_blank"} program. 
+I'm an active member of MIT's [Deutsches Haus](http://dh.scripts.mit.edu/home/){:target="_blank"}, the German cultural community, an avid hiker, and amateur Spanish speaker/minor. I love to travel, and have been to both Israel and Spain for MIT's [MISTI](https://misti.mit.edu){:target="_blank"} program. 

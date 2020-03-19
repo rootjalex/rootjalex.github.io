@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ------
-* B.S. in Computer Science & Engineering @ MIT, 2021 (expected)
+* S.B. in Computer Science & Engineering @ MIT, 2021 (expected)
 
 Work experience
 ------

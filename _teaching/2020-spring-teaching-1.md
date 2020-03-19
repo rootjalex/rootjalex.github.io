@@ -1,5 +1,5 @@
 ---
-title: "6.006 (Introduction to Algorithms) UTA"
+title: "6.006 Introduction to Algorithms SP2020"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2020-spring-teaching-1

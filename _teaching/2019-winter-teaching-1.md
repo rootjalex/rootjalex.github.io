@@ -1,7 +1,7 @@
 ---
-title: "MIT GTL MEET Computer Science Instructor"
+title: "MIT MEET Computer Science Program"
 collection: teaching
-type: "High School Program"
+type: "MIT Global Teaching Labs"
 permalink: /teaching/2019-winter-teaching-1
 venue: "MISTI MEET"
 date: 2019-01-01
