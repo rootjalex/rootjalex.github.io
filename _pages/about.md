@@ -12,9 +12,9 @@ Hi! I'm Alexander, and welcome to my website! It's a little barebones at the mom
 
 Professional
 ------
-I'm an S.B. Candidate at MIT, pursuing a degree in Computer Science & Engineering.
+I am an S.B. Candidate at MIT, pursuing a degree in Computer Science & Engineering.
 
-I am a student researcher at CSAIL in the Computer Graphics group, where I work with [Frédo Durand](https://people.csail.mit.edu/fredo/){:target="_blank"} and [Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/){:target="_blank"} on the [Halide](https://halide-lang.org){:target="_blank"} programming language. 
+I conduct research at CSAIL in the Computer Graphics group, where I work with [Frédo Durand](https://people.csail.mit.edu/fredo/){:target="_blank"} and [Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/){:target="_blank"} on the [Halide](https://halide-lang.org){:target="_blank"} programming language. 
 
 I previously worked on the [Swarm Architecture](http://people.csail.mit.edu/sanchez/papers/2016.swarm.toppicks.pdf){:target="_blank"} for parallel programming.
 
