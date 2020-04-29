@@ -10,13 +10,14 @@ redirect_from:
 
 Hi! I'm Alexander, and welcome to my website! It's a little barebones at the moment, but I will be adding to it during the boredom that is quarantine.
 
+
 Professional
 ------
 I am an S.B. Candidate at MIT, pursuing a degree in Computer Science & Engineering.
 
-I conduct research at CSAIL in the Computer Graphics group, where I work with [Frédo Durand](https://people.csail.mit.edu/fredo/){:target="_blank"} and [Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/){:target="_blank"} on the [Halide](https://halide-lang.org){:target="_blank"} programming language. 
+I do research at CSAIL in the Computer Graphics group, where I work with [Frédo Durand](https://people.csail.mit.edu/fredo/){:target="_blank"} and [Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/){:target="_blank"} on the [Halide](https://halide-lang.org){:target="_blank"} programming language.
 
-I previously worked on the [Swarm Architecture](http://people.csail.mit.edu/sanchez/papers/2016.swarm.toppicks.pdf){:target="_blank"} for parallel programming.
+I previously worked on cloud computing and IOT security at [Iterative Scopes](https://www.iterativescopes.com){:target="_blank"}, decentralized optimization with privacy at [Lawrence Livermore National Lab](https://www.llnl.gov){:target="_blank"}, and on the [Swarm Architecture](http://people.csail.mit.edu/sanchez/papers/2016.swarm.toppicks.pdf){:target="_blank"} for parallel programming with [Daniel Sanchez](https://people.csail.mit.edu/sanchez/){:target="_blank"}.
 
 My research interests are broadly in computer systems, including but not limited to: programming languages, performance engineering, computer architecture, and security.
 
