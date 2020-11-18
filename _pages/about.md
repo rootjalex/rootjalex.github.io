@@ -13,11 +13,11 @@ Hi! I'm Alexander, and welcome to my website! It's a little barebones at the mom
 
 Professional
 ------
-I am an S.B. Candidate at MIT, pursuing a degree in Computer Science & Engineering.
+I am a senior at MIT, pursuing a degree in Computer Science & Engineering.
 
-My research at CSAIL is in the Computer Graphics group, where I work with [Frédo Durand](https://people.csail.mit.edu/fredo/){:target="_blank"} and [Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/){:target="_blank"} on the [Halide](https://halide-lang.org){:target="_blank"} programming language.
+I work with [Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/){:target="_blank"} on the [Halide](https://halide-lang.org){:target="_blank"} programming language, and previously worked with [Frédo Durand](https://people.csail.mit.edu/fredo/){:target="_blank"} on Halide.
 
-I previously worked on cloud computing and IOT security at [Iterative Scopes](https://www.iterativescopes.com){:target="_blank"}, decentralized optimization with privacy at [Lawrence Livermore National Lab](https://www.llnl.gov){:target="_blank"}, and on the [Swarm Architecture](http://people.csail.mit.edu/sanchez/papers/2016.swarm.toppicks.pdf){:target="_blank"} for parallel programming with [Daniel Sanchez](https://people.csail.mit.edu/sanchez/){:target="_blank"}.
+I have interned in cybersecurity and Microsoft and [Lawrence Livermore National Lab](https://www.llnl.gov){:target="_blank"}, and on cloud computing at [Iterative Scopes](https://www.iterativescopes.com){:target="_blank"}. I (briefly) worked on the [Swarm Architecture](http://people.csail.mit.edu/sanchez/papers/2016.swarm.toppicks.pdf){:target="_blank"} for parallel programming with [Daniel Sanchez](https://people.csail.mit.edu/sanchez/){:target="_blank"}.
 
 My research interests are broadly in computer systems, including but not limited to: programming languages, performance engineering, computer architecture, and security.
 
@@ -26,4 +26,4 @@ Personal
 ------
 I'm an active member of MIT's [Deutsches Haus](http://dh.scripts.mit.edu/home/){:target="_blank"}, the German cultural community, an avid hiker, and amateur Spanish speaker/minor. I love to travel, and have been to both the Middle East and Spain for MIT's [MISTI](https://misti.mit.edu){:target="_blank"} program. 
 
-My friends and family know me as AJ.
+My friends and family call me AJ.

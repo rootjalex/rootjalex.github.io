@@ -11,17 +11,17 @@ redirect_from:
 
 Education
 ------
-* MEng in Electrical Engineering and computer Science @ MIT, 2022
+* M.Eng. in Electrical Engineering and computer Science @ MIT, 2022
 * S.B. in Computer Science & Engineering @ MIT, 2021
 
 Work experience
 ------
 * Fall 2019 - Present: **Research Assistant**
   * *Computer Graphics Group (MIT CSAIL)*
-    * Working on new language constructs for the [Halide](https://halide-lang.org){:target="_blank"} programming language, to facilitate fixed point numeric types and optimizations. 
-    * Researching ways to use affine arithmetic to determine optimal parameters for fixed point computation.
-    * Formally verifying components of the Halide compiler
-  * Supervisors: [Professor Fredo Durand](https://people.csail.mit.edu/fredo/){:target="_blank"} and [Professor Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/){:target="_blank"}
+    * Formally verifying [Halide](https://halide-lang.org){:target="_blank"}'s bounds inference engine
+    * Previously worked on new language constructs for Halide to facilitate fixed point numeric types and optimizations. 
+    * Researched ways to use affine arithmetic to determine optimal parameters for fixed point computation.
+  * Supervisors: [Professor Jonathan Ragan-Kelley](https://people.eecs.berkeley.edu/~jrk/){:target="_blank"} and [Professor Fredo Durand](https://people.csail.mit.edu/fredo/){:target="_blank"}
 <br/>
 <br/>
 
