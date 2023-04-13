@@ -1,0 +1,38 @@
+root:
+  name: Alexander J. Root
+  site: https://rootjalex.github.io
+  place: Stanford University
+
+root_mit:
+  name: Alexander J. Root
+  site: https://rootjalex.github.io
+  place: MIT CSAIL
+
+ahmad:
+  name: Maaz Bin Safeer Ahmad
+  site: https://maaz139.github.io
+  place: Adobe Research
+
+adams:
+  name: Andrew Adams
+  site: https://andrew.adams.pub
+  place: Adobe Research
+
+cheung:
+  name: Alvin Cheung
+  site: https://people.eecs.berkeley.edu/~akcheung/
+  place: UC Berkeley
+
+jrk:
+  name: Jonathan Ragan-Kelley
+  site: https://people.csail.mit.edu/jrk/
+  place: MIT CSAIL
+
+kamil:
+  name: Shoaib Kamil
+  site: https://people.csail.mit.edu/skamil/
+  place: Adobe Research
+
+sharlet:
+  name: Dillon Sharlet
+  site: https://www.linkedin.com/in/dillon-sharlet-a1894813/
