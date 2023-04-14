@@ -43,7 +43,7 @@ and <a href="https://maaz139.github.io">Maaz Bin Safeer Ahmad</a> at Adobe Resea
 Part of my undergraduate work on fixed-point computation was advised by <a href="https://people.csail.mit.edu/fredo/">Fr&eacute;do Durand</a>.
 
 
-Much of my research in undergrad and my masters was applied to the <a href="https://halide-lang.org/">Halide</a> compiler,
+Much of my pre-PhD research was applied to the <a href="https://halide-lang.org/">Halide</a> compiler,
 and I remain somewhat active in the language's development.
 
 <h2 class="tableheading">Publications</h2>
