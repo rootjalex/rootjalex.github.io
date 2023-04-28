@@ -20,7 +20,7 @@ tags: publication
   <br/>
 
   {%- for author in pub.authors -%}
-    <p><a href="{{- site.data.authors[author].site -}}">{{ site.data.authors[author].name }}</a>, {{ site.data.authors[author].place }}</p>
+    <p><a href="{{- site.data.authors[author].site -}}">{{ site.data.authors[author].name }}</a>{% if site.data.authors[author].place %}, {{ site.data.authors[author].place }} {%- endif -%}</p>
   {%- endfor -%}
 
   {% if pub.image %}
