@@ -1,4 +1,4 @@
-asplos2024:
+asplos2023:
   title: 	Fast Instruction Selection for Fast Digital Signal Processing
   abstract: "<p>
     Modern vector processors support a wide variety of instructions for fixed-point digital signal processing.
@@ -15,18 +15,18 @@ asplos2024:
     range of benchmarks, by geomean 1.31x on x86 with AVX2, 1.82x on ARM Neon, and 2.46x on Hexagon HVX compared to a
     standard LLVM-based compiler flow, while maintaining or improving existing compile times.
     </p>"
-  venue: "(to appear in) International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
-  year: 2024
-  pdf:
+  venue: "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
+  year: 2023
+  pdf: /publications/asplos2023-pitchfork.pdf
   image: /assets/pitchfork_arch.png
-  code:
-  acmdl:
+  code: https://github.com/halide/Halide/tree/rootjalex/trs-codegen
+  acmdl: https://doi.org/10.1145/3623278.3624768
   month: April
   authors:
     - root
     - ahmad
-    - adams
     - sharlet
+    - adams
     - kamil
     - jrk
   bibtex: ""
