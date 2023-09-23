@@ -24,7 +24,7 @@ asplos2023:
   image: /assets/pitchfork_arch.png
   code: https://github.com/halide/Halide/tree/rootjalex/trs-codegen
   acmdl: https://doi.org/10.1145/3623278.3624768
-  month: April
+  month: March
   authors:
     - root
     - ahmad
