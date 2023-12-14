@@ -31,16 +31,16 @@ Office: 464 Gates<br/>
 
 
 I am a Stanford CS PhD student advised by <a href="https://fredrikbk.com">Fredrik Kjolstad</a>,
-currently working on sparse data reorganization. My research interests broadly include domain-specific
+currently working on compilers for sparse array programming and high-performance simulations. My research interests broadly include domain-specific
 languages, compilers, and architectures for high-performance numerical computing, with an emphasis on
 visual computing applications. I am generously supported by the NSF GFRP and a Stanford School of Engineering fellowship.
 
 
 I graduated with my bachelor's ('21) and master's ('22) from MIT, working under <a href="https://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>
 and <a href="https://andrew.adams.pub">Andrew Adams</a>, where I worked on vector instruction selection,
-fixed-point computation, and bounds inference. I also interned with Andrew, <a href="https://people.csail.mit.edu/skamil/">Shoaib Kamil</a>,
+fixed-point computing systems, and bounds inference. I also interned with Andrew, <a href="https://people.csail.mit.edu/skamil/">Shoaib Kamil</a>,
 and <a href="https://maaz139.github.io">Maaz Bin Safeer Ahmad</a> at Adobe Research in the summers of 2021 and 2022, on the same topics.
-Part of my undergraduate work on fixed-point computation was advised by <a href="https://people.csail.mit.edu/fredo/">Fr&eacute;do Durand</a>.
+Part of my undergraduate work on fixed-point compute systems was advised by <a href="https://people.csail.mit.edu/fredo/">Fr&eacute;do Durand</a>.
 
 
 Much of my pre-PhD research was applied to the <a href="https://halide-lang.org/">Halide</a> compiler,

@@ -3,7 +3,7 @@ cs343dw23:
   url: "https://cs343d.github.io"
   role: "Course Assistant (CA)"
   month: "Winter"
-  year: "2023"
+  year: "2023 and 2024"
   venue: "Stanford University"
 
 m818f21:
@@ -19,15 +19,7 @@ m006s20:
   url: "https://courses.csail.mit.edu/6.006/"
   role: "Teaching Assistant (TA)"
   month: "Spring"
-  year: "2020"
-  venue: "MIT"
-
-m006s19:
-  title: "6.006: Introduction to Algorithms"
-  url: "https://courses.csail.mit.edu/6.006/"
-  role: "Teaching Assistant (TA)"
-  month: "Spring"
-  year: "2019"
+  year: "2019 and 2020"
   venue: "MIT"
 
 meetw19:
