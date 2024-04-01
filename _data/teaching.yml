@@ -1,4 +1,12 @@
-cs343dw23:
+cs343s:
+  title: "CS 343S: Domain-Specific Language Design Studio"
+  url: "http://cs343s.stanford.edu/"
+  role: "Teaching Fellow (TF)"
+  month: "Spring"
+  year: "2024"
+  venue: "Stanford University"
+
+cs343d:
   title: "CS 343D: Domain-Specific Programming Models and Compilers"
   url: "https://cs343d.github.io"
   role: "Course Assistant (CA)"
@@ -6,7 +14,7 @@ cs343dw23:
   year: "2023 and 2024"
   venue: "Stanford University"
 
-m818f21:
+mit818:
   title: "6.818: Dynamic Computer Language Engineering"
   # url: ""
   role: "Teaching Assistant (TA)"
@@ -14,7 +22,7 @@ m818f21:
   year: "2021"
   venue: "MIT"
 
-m006s20:
+mit006:
   title: "6.006: Introduction to Algorithms"
   url: "https://courses.csail.mit.edu/6.006/"
   role: "Teaching Assistant (TA)"
@@ -22,7 +30,7 @@ m006s20:
   year: "2019 and 2020"
   venue: "MIT"
 
-meetw19:
+meet:
   title: "MEET"
   url: "https://www.meet.mit.edu"
   role: "Computer Science Instructor"

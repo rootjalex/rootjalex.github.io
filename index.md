@@ -12,6 +12,7 @@ PhD Student<br/>
 Department of Computer Science<br/>
 Stanford University<br/>
 Office: 464 Gates<br/>
+Email: ajroot [at] stanford [dot] edu<br/>
 <!-- <a href="mailto:ajroot@stanford.edu">ajroot [at] stanford [dot] edu</a><br/> -->
 <a href="/assets/cv.pdf">Curriculum Vitae</a><br/>
 <a href="https://scholar.google.com/citations?user=ePuWx50AAAAJ&hl=en&oi=sra">Google Scholar</a><br/>
