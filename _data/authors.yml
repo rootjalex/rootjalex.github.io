@@ -18,10 +18,30 @@ adams:
   site: https://andrew.adams.pub
   place: Adobe Research
 
+bik:
+  name: Aart Bik
+  site: https://www.aartbik.com
+  place: Google Research
+
+broman:
+  name: David Broman
+  site: https://people.kth.se/~dbro/
+  place: KTH Royal Institute of Technology, Stanford University
+
 cheung:
   name: Alvin Cheung
   site: https://people.eecs.berkeley.edu/~akcheung/
   place: UC Berkeley
+
+gale:
+  name: Trevor Gale
+  site: https://www.linkedin.com/in/trevorgale/
+  place: Stanford University
+
+gyurgyik:
+  name: Christophe Gyurgyik
+  site: https://cgyurgyik.github.io
+  place: Stanford University
 
 jrk:
   name: Jonathan Ragan-Kelley
@@ -33,6 +53,31 @@ kamil:
   site: https://people.csail.mit.edu/skamil/
   place: Adobe Research
 
+kjolstad:
+  name: Fredrik Kjolstad
+  site: https://fredrikbk.com
+  place: Stanford University
+
+liu:
+  name: Peiming Liu
+  site: https://peimingliu.github.io
+  place: Google Research
+
+li:
+  name: Yinying Li
+  site: https://www.linkedin.com/in/yinying-lisa-li/
+  place: Google Research
+
 sharlet:
   name: Dillon Sharlet
   site: https://www.linkedin.com/in/dillon-sharlet-a1894813/
+
+xu:
+  name: Anlun Xu
+  site: https://www.linkedin.com/in/anlun-xu-14a56614a/
+  place: Google Research
+
+yan:
+  name: Bobby Yan
+  site: https://bobbyy.org/about/
+  place: Stanford University
