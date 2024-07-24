@@ -1,5 +1,5 @@
 ---
-title: Alexander J. Root
+title: Alexander J Root
 layout: home
 ---
 
@@ -49,11 +49,14 @@ and I remain somewhat active in the language's development.
 
 I am generously supported by the NSF GFRP and a Stanford School of Engineering fellowship.
 
-<h2 class="tableheading">Publications</h2>
+<!-- <br> -->
+
+<h2 class="tableheading" style="padding-top: 10px;">Publications</h2>
 
 <table border="0" style="margin: 0;">
   {% for pub_keyval in site.data.publications %}
     {%- assign pub = pub_keyval[1] -%}
+    {% if pub.preprint != "y" %}
     <tr>
       <td style="margin-left: 1em; text-align: right; flex: 0 0 90px; width: 15%">{{ pub.acronym }} {{ pub.year }}</td>
       <td style="width: 2.5%"></td>
@@ -114,10 +117,85 @@ I am generously supported by the NSF GFRP and a Stanford School of Engineering f
       </td>
     </tr>
     {% endif %}
+    {% endif %}
     {% endfor %}
 </table>
 
-<h2 class="tableheading">Teaching</h2>
+<!-- <br> -->
+
+<h2 class="tableheading" style="padding-top: 20px;">Preprints</h2>
+
+<table border="0" style="margin: 0;">
+  {% for pub_keyval in site.data.publications %}
+    {%- assign pub = pub_keyval[1] -%}
+    {% if pub.preprint == "y" %}
+    <tr>
+      <td style="margin-left: 1em; text-align: right; flex: 0 0 90px; width: 15%">{{ pub.acronym }} {{ pub.year }}</td>
+      <td style="width: 2.5%"></td>
+      <td style="font-size: 1.1em; line-height: 1.25; hyphens: none; margin-bottom: 0.2em; text-decoration: underline;">
+      {% if pub.abstract %}
+        <a href="{{pub_keyval[0]}}.html" style="color: #464646">
+      {% endif %}
+      {{ pub.title }}
+      {% if pub.abstract %}
+        </a>
+      {% endif %}
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td style="width: 2.5%"></td>
+      <td>
+      <!-- for loop of authors -->
+        {%- for author in pub.authors -%}
+          {%- if forloop.last == true and forloop.length > 1 %}
+            and
+          {%- endif %}
+          {%- if author == "root" %}
+            <b><font color="#000000">{{ site.data.authors[author].name }}</font></b>
+          {%- elsif author == "root_mit" %}
+            <b><font color="#000000">{{ site.data.authors[author].name }}</font></b>
+          {%- else %}
+            <a href="{{- site.data.authors[author].site -}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
+          {%- endif -%}
+          {%- if forloop.last == false and forloop.length > 2 -%}
+            ,
+          {%- endif %}
+        {%- endfor -%}
+      </td>
+    </tr>
+    {% if pub.abstract or pub.pdf or pub.code %}
+    <tr style="height: 10%;">
+      <td></td>
+      <td style="width: 2.5%"></td>
+      <td style="padding:0px; margin:0px;">
+        {% if pub.abstract %}
+          <a href="{{pub_keyval[0]}}.html"><img src="/assets/link.png" alt="link" width="20"/> Website</a>
+        {% endif %}
+        {% if pub.pdf %}
+          <a href="{{ pub.pdf }}"><img src="/assets/doc.png" alt="pdf" width="20"/> Paper</a>
+        {% endif %}
+        {% if pub.code %}
+          <a href="{{ pub.code }}"><img src="/assets/code.png" alt="code" width="20"/> Code</a>
+        {% endif %}
+      </td>
+    </tr>
+    {%- else %}
+    <tr style="height: 10%;">
+      <td></td>
+      <td style="width: 2.5%"></td>
+      <td style="padding:0px; margin:0px;">
+        <em>Paper draft coming soon!</em>
+      </td>
+    </tr>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</table>
+
+<!-- <br> -->
+
+<h2 class="tableheading" style="padding-top: 20px;">Teaching</h2>
 <table border="0" style="margin: 0;">
 {%- for teaching_keyval in site.data.teaching %}
   {%- assign teaching= teaching_keyval[1] -%}

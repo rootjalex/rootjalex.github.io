@@ -1,22 +1,22 @@
-# oopsla2024burrito:
-#   title: Compilation of Shape Operators on Sparse Arrays
-#   abstract:
-#   venue: "(to appear in) Proceedings of the ACM on Programming Languages (OOPSLA)"
-#   acronym: OOPSLA
-#   year: 2024
-#   pdf:
-#   image:
-#   code:
-#   acmdl:
-#   month: October
-#   authors:
-#     - root
-#     - yan
-#     - liu
-#     - gyurgyik
-#     - bik
-#     - kjolstad
-#   bibtex:
+oopsla2024burrito:
+  title: Compilation of Shape Operators on Sparse Arrays
+  abstract:
+  venue: "(to appear in) Proceedings of the ACM on Programming Languages (OOPSLA)"
+  acronym: OOPSLA
+  year: 2024
+  pdf:
+  image:
+  code:
+  acmdl:
+  month: October
+  authors:
+    - root
+    - yan
+    - liu
+    - gyurgyik
+    - bik
+    - kjolstad
+  bibtex:
 
 # oopsla2024spconv:
 #   title: Compiler Support for Sparse Tensor Convolutions
@@ -42,9 +42,10 @@ scorch2024:
   title: "Scorch: A Library for Sparse Deep Learning"
   abstract:
   venue: "Under Submission"
-  acronym: Draft
+  acronym: arXiv
   year: 2024
   pdf: https://arxiv.org/pdf/2405.16883
+  preprint: y
   image:
   code:
   acmdl:
