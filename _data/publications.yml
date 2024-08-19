@@ -18,25 +18,25 @@ oopsla2024burrito:
     - kjolstad
   bibtex:
 
-# oopsla2024spconv:
-#   title: Compiler Support for Sparse Tensor Convolutions
-#   abstract:
-#   venue: "(to appear in) Proceedings of the ACM on Programming Languages (OOPSLA)"
-#   acronym: OOPSLA
-#   year: 2024
-#   pdf:
-#   image:
-#   code:
-#   acmdl:
-#   month: October
-#   authors:
-#     - liu
-#     - root
-#     - xu
-#     - li
-#     - kjolstad
-#     - bik
-#   bibtex:
+oopsla2024spconv:
+  title: Compiler Support for Sparse Tensor Convolutions
+  abstract:
+  venue: "(to appear in) Proceedings of the ACM on Programming Languages (OOPSLA)"
+  acronym: OOPSLA
+  year: 2024
+  pdf:
+  image:
+  code:
+  acmdl:
+  month: October
+  authors:
+    - liu
+    - root
+    - xu
+    - li
+    - kjolstad
+    - bik
+  bibtex:
 
 scorch2024:
   title: "Scorch: A Library for Sparse Deep Learning"
