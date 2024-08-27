@@ -24,10 +24,10 @@ oopsla2024spconv:
   venue: "(to appear in) Proceedings of the ACM on Programming Languages (OOPSLA)"
   acronym: OOPSLA
   year: 2024
-  pdf:
+  pdf: /publications/oopsla2024-spconv.pdf
   image:
-  code:
-  acmdl:
+  code: https://hub.docker.com/r/geticliu/sparse_conv_oopsla
+  acmdl: https://doi.org/10.1145/3689721
   month: October
   authors:
     - liu
@@ -141,7 +141,7 @@ asplos2022:
     - kamil
     - cheung
   bibtex: "@inproceedings{ahmad2022rake,
-          <br>  author = {Ahmad, Maaz Bin Safeer and Root, Alexander J. and Adams, Andrew and Kamil, Shoaib and Cheung, Alvin},
+          <br>  author = {Ahmad, Maaz Bin Safeer and Root, Alexander J and Adams, Andrew and Kamil, Shoaib and Cheung, Alvin},
           <br>  title = {Vector Instruction Selection for Digital Signal Processors Using Program Synthesis},
           <br>  year = {2022},
           <br>  isbn = {9781450392051},
