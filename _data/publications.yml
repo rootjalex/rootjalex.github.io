@@ -1,13 +1,26 @@
 oopsla2024burrito:
   title: Compilation of Shape Operators on Sparse Arrays
-  abstract:
+  abstract: "<p>
+    We show how to build a compiler for a sparse array language that supports shape operators such as reshaping or
+    concatenating arrays, in addition to compute operators. Existing sparse array programming systems implement
+    generic shape operators for only some sparse data structures, reduce shape operators on other data structures
+    to those, and do not support fusion. Our system compiles sparse array expressions to code that efficiently
+    iterates over reshaped views of irregular sparse data structures, without needing to materialize temporary
+    storage for intermediates. Our evaluation shows that our approach generates sparse array code competitive with
+    popular sparse array libraries: our generated shape operators achieve geometric mean speed-ups of 1.66x-15.3x
+    when compared to hand-written kernels in scipy.sparse and 1.67x-651x when compared to generic implementations
+    in pydata/sparse. For operators that require data structure conversions in these libraries, our generated code
+    achieves geometric mean speed-ups of 7.29x-13.0x when compared to scipy.sparse and 21.3x-511x when compared to
+    pydata/sparse. Finally, our evaluation demonstrates that fusing shape and compute operators improves the
+    performance of several expressions by geometric mean speed-ups of 1.22x-2.23x.
+    </p>"
   venue: "(to appear in) Proceedings of the ACM on Programming Languages (OOPSLA)"
   acronym: OOPSLA
   year: 2024
-  pdf:
+  pdf: /publications/oopsla2024-burrito.pdf
   image:
-  code:
-  acmdl:
+  code: https://github.com/rootjalex/burrito-artifact
+  acmdl: https://doi.org/10.1145/3689752
   month: October
   authors:
     - root
