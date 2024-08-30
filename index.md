@@ -97,14 +97,14 @@ I am generously supported by the NSF GFRP and a Stanford School of Engineering f
       <td></td>
       <td style="width: 2.5%"></td>
       <td style="padding:0px; margin:0px;">
-        {% if pub.abstract %}
-          <a href="{{pub_keyval[0]}}.html"><img src="/assets/link.png" alt="link" width="20"/> Website</a>
-        {% endif %}
         {% if pub.pdf %}
           <a href="{{ pub.pdf }}"><img src="/assets/doc.png" alt="pdf" width="20"/> Paper</a>
         {% endif %}
         {% if pub.code %}
           <a href="{{ pub.code }}"><img src="/assets/code.png" alt="code" width="20"/> Code</a>
+        {% endif %}
+        {% if pub.abstract %}
+          <a href="{{pub_keyval[0]}}.html"><img src="/assets/link.png" alt="link" width="20"/> Website</a>
         {% endif %}
       </td>
     </tr>
@@ -169,14 +169,14 @@ I am generously supported by the NSF GFRP and a Stanford School of Engineering f
       <td></td>
       <td style="width: 2.5%"></td>
       <td style="padding:0px; margin:0px;">
-        {% if pub.abstract %}
-          <a href="{{pub_keyval[0]}}.html"><img src="/assets/link.png" alt="link" width="20"/> Website</a>
-        {% endif %}
         {% if pub.pdf %}
-          <a href="{{ pub.pdf }}"><img src="/assets/doc.png" alt="pdf" width="20"/> Paper</a>
+          <a href="{{ pub.pdf }}"><img src="/assets/doc.png" alt="pdf" width="20"/> Paper </a>
         {% endif %}
         {% if pub.code %}
           <a href="{{ pub.code }}"><img src="/assets/code.png" alt="code" width="20"/> Code</a>
+        {% endif %}
+        {% if pub.abstract %}
+          <a href="{{pub_keyval[0]}}.html"><img src="/assets/link.png" alt="link" width="20"/> Website</a>
         {% endif %}
       </td>
     </tr>
