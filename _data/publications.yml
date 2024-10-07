@@ -14,7 +14,7 @@ oopsla2024burrito:
     pydata/sparse. Finally, our evaluation demonstrates that fusing shape and compute operators improves the
     performance of several expressions by geometric mean speed-ups of 1.22x-2.23x.
     </p>"
-  venue: "(to appear in) Proceedings of the ACM on Programming Languages (OOPSLA)"
+  venue: "Proceedings of the ACM on Programming Languages, Volume 8, Issue OOPSLA"
   acronym: OOPSLA
   year: 2024
   pdf: /publications/oopsla2024-burrito.pdf
@@ -47,7 +47,7 @@ oopsla2024spconv:
     state-of-the-art compiler-based method at 99.9% sparsity. The generated sparse kernels start to outperform dense
     convolution implementations at about 80% sparsity. 
     </p>"
-  venue: "(to appear in) Proceedings of the ACM on Programming Languages (OOPSLA)"
+  venue: "Proceedings of the ACM on Programming Languages, Volume 8, Issue OOPSLA"
   acronym: OOPSLA
   year: 2024
   pdf: /publications/oopsla2024-spconv.pdf
