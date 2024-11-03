@@ -105,9 +105,6 @@ I am generously supported by the NSF GFRP and a Stanford School of Engineering f
         {% if pub.code %}
           <a href="{{ pub.code }}"><img src="/assets/code.png" alt="code" width="20"/> Code</a>
         {% endif %}
-        {% if pub.abstract %}
-          <a href="{{pub_keyval[0]}}.html"><img src="/assets/link.png" alt="link" width="20"/> Website</a>
-        {% endif %}
       </td>
     </tr>
     {%- else %}
