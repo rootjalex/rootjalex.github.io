@@ -5,7 +5,7 @@ layout: home
 
 <table border="0" cellpadding="0">
 <td valign="top">
-PhD Student<br/>
+PhD Candidate<br/>
 Department of Computer Science<br/>
 Stanford University<br/>
 Email: ajroot [at] cs [dot] stanford [dot] edu<br/>
@@ -21,7 +21,7 @@ Email: ajroot [at] cs [dot] stanford [dot] edu<br/>
 
 
 
-I am a Stanford CS PhD student advised by <a href="https://fredrikbk.com">Fredrik Kjolstad</a>.
+I am a Stanford CS PhD candidate advised by <a href="https://fredrikbk.com">Fredrik Kjolstad</a>.
 I also work closely with <a href="https://andrew.adams.pub">Andrew Adams</a>,
 <a href="https://graphics.stanford.edu/~kayvonf/">Kayvon Fatahalian</a>,
 and <a href="https://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>.
