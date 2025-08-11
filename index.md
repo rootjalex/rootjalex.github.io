@@ -30,8 +30,9 @@ and <a href="https://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>.
 My research interests broadly include domain-specific languages, compilers, and architectures
 for high-performance numerical computing, with an emphasis on visual computing applications.
 I am particularly interested in *performance and productivity*: I aim to make it significantly
-easier to write high-performance code. I currently work on compilers for sparse array programming
-and high-performance spatial queries (e.g. ray tracing and collision detection).
+easier to write high-performance code. I currently work on compilers for parallelizing irregular
+computation, such as sparse array programming and high-performance spatial queries (e.g. ray
+tracing and collision detection).
 
 
 I graduated with my bachelor's ('21) and master's ('22) from MIT, working under <a href="https://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>
@@ -44,7 +45,7 @@ Part of my undergraduate work on fixed-point compute systems was advised by <a h
 Much of my pre-PhD research was applied to the <a href="https://halide-lang.org/">Halide</a> compiler,
 and I remain somewhat active in the language's development.
 
-I am generously supported by the NSF GFRP and a Stanford School of Engineering fellowship.
+I am supported by the <a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-north-america">Qualcomm Innovation Fellowship</a> along with <a href="https://cgyurgyik.github.io/">Chris Gyurgyik</a>. I was previously supported by the <a href = "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program">NSF GFRP</a> and a Stanford School of Engineering fellowship.
 
 <!-- <br> -->
 
