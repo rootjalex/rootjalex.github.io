@@ -1,3 +1,32 @@
+cgo2026scorch:
+  title: Fast Autoscheduling for Sparse ML Frameworks
+  abstract: "<p>
+    The rapid growth in the size of deep learning models strains the capabilities of dense computation paradigms.
+    Leveraging sparse computation has become increasingly popular for training and deploying large-scale models, but existing deep learning frameworks lack extensive support for sparse operations.
+    However, existing approaches either require manual scheduling expertise or rely on exhaustive search taking hours to days, which are both incompatible with the interactive development essential to machine learning research.
+    We present three algorithmic contributions that enable fast, automatic optimization of sparse tensor computations.
+    First, we develop a heuristic-based loop ordering algorithm that avoids asymptotic performance cliffs while compiling in milliseconds rather than hours.
+    Second, we introduce a tiling algorithm specialized for mixed sparse-dense computations that achieves cache performance comparable to hand-optimized kernels.
+    Third, we present a format inference algorithm that automatically selects appropriate sparse tensor formats for intermediate and output tensors based on operation semantics.
+    These algorithms are grounded in the mathematical properties of sparse tensor algebra, making them predictable and robust across diverse workloads.
+    We implement these techniques in Scorch, a prototype sparse tensor compiler for PyTorch that demonstrates their practical effectiveness.
+    With only minimal code changes, our approach achieves 1.05-5.80x speedups over PyTorch Sparse on end-to-end tasks including graph neural networks, sparse autoencoders, and sparse transformers, while maintaining the interactive compilation speeds essential for ML development.
+    </p>"
+  venue: "Proceedings of the 24th ACM/IEEE International Symposium on Code Generation and Optimization"
+  acronym: CGO
+  year: 2026
+  pdf: https://arxiv.org/pdf/2405.16883
+  image:
+  code: https://github.com/bobbyyyan/scorch
+  # acmdl: https://doi.org/10.1145/3689752
+  month: February
+  authors:
+    - yan
+    - root
+    - gale
+    - broman
+    - kjolstad
+
 oopsla2024burrito:
   title: Compilation of Shape Operators on Sparse Arrays
   abstract: "<p>

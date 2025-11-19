@@ -26,7 +26,7 @@ bik:
 broman:
   name: David Broman
   site: https://people.kth.se/~dbro/
-  place: KTH Royal Institute of Technology, Stanford University
+  place: KTH Royal Institute of Technology
 
 cheung:
   name: Alvin Cheung
@@ -36,7 +36,7 @@ cheung:
 gale:
   name: Trevor Gale
   site: https://www.linkedin.com/in/trevorgale/
-  place: Stanford University
+  place: Google
 
 gyurgyik:
   name: Christophe Gyurgyik
