@@ -12,7 +12,7 @@ cgo2026scorch:
     We implement these techniques in Scorch, a prototype sparse tensor compiler for PyTorch that demonstrates their practical effectiveness.
     With only minimal code changes, our approach achieves 1.05-5.80x speedups over PyTorch Sparse on end-to-end tasks including graph neural networks, sparse autoencoders, and sparse transformers, while maintaining the interactive compilation speeds essential for ML development.
     </p>"
-  venue: "Proceedings of the 24th ACM/IEEE International Symposium on Code Generation and Optimization"
+  venue: "(to appear in) Proceedings of the 24th ACM/IEEE International Symposium on Code Generation and Optimization"
   acronym: CGO
   year: 2026
   pdf: https://arxiv.org/pdf/2405.16883
