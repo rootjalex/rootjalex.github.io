@@ -12,6 +12,7 @@ Email: ajroot [at] cs [dot] stanford [dot] edu<br/>
 <a href="/assets/cv.pdf">Curriculum Vitae</a><br/>
 <a href="https://scholar.google.com/citations?user=ePuWx50AAAAJ&hl=en&oi=sra">Google Scholar</a><br/>
 <a href="https://github.com/rootjalex/">Github</a>
+<div id="siteUpdate" style="text-align: left; font-size: 0.9em; color: #777; margin-top: 0.4em;"></div>
 </td>
 <td valign="top" style="min-width:140px;position: relative;text-align: end;padding-right: 2em;">
 <img src="/assets/trip.jpg" width="160">
@@ -146,8 +147,9 @@ I am supported by the <a href="https://www.qualcomm.com/research/university-rela
 {% endfor %}
 </table>
 
-<br/>
-<div id=siteUpdate style="text-align: center;"> </div>
+
+<!-- <div id=siteUpdate style="text-align: center;"> </div> -->
+<div>
 <script>
 const desiredRepo = "rootjalex.github.io"
 const monthNames = ["January", "February", "March", "April", "May", "June",
@@ -173,3 +175,4 @@ xhttp.onreadystatechange = function() {
 xhttp.open("GET", "https://api.github.com/users/rootjalex/repos", true);
 xhttp.send();
 </script>
+</div>
