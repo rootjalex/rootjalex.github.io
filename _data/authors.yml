@@ -33,10 +33,20 @@ cheung:
   site: https://people.eecs.berkeley.edu/~akcheung/
   place: UC Berkeley
 
+fatahalian:
+  name: Kayvon Fatahalian
+  site: https://graphics.stanford.edu/~kayvonf/
+  place: Stanford University
+
 gale:
   name: Trevor Gale
   site: https://www.linkedin.com/in/trevorgale/
   place: Google
+
+goel:
+  name: Purvi Goel
+  site: https://www.purvigoel.com/
+  place: Stanford University
 
 gyurgyik:
   name: Christophe Gyurgyik

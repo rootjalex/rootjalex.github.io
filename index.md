@@ -71,7 +71,7 @@ I am supported by the <a href="https://www.qualcomm.com/research/university-rela
     <tr>
       <td style="padding: 0;"></td>
       <td style="width: 2.5%; padding: 0;"></td>
-      <td style="font-style: italic; padding: 0;">{{ pub.venue }}</td>
+      <td style="font-style: italic; padding: 0; line-height: 1.0">{{ pub.venue }}</td>
     </tr>
     <tr>
       <td></td>
@@ -117,6 +117,9 @@ I am supported by the <a href="https://www.qualcomm.com/research/university-rela
       </td>
     </tr>
     {% endif %}
+    <tr aria-hidden="true">
+      <td colspan="3" style="height: 0.01em;"></td>
+    </tr>
     {% endif %}
     {% endfor %}
 </table>
