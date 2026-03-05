@@ -15,42 +15,49 @@ Email: ajroot [at] cs [dot] stanford [dot] edu<br/>
 <div id="siteUpdate" style="text-align: left; font-size: 0.9em; color: #777; margin-top: 0.4em;"></div>
 </td>
 <td valign="top" style="min-width:140px;position: relative;text-align: end;padding-right: 2em;">
-<img src="/assets/trip.jpg" width="160">
+<img src="/assets/trip.jpg" width="160" alt="Headshot of Alexander J Root">
 </td>
 </table>
 
 
+<h3 class="tableheading" style="padding-top: 10px;">About</h3>
 
+I build compilers and programming systems that make it tractable to write high-performance code for irregular computations. My goal is to make asymptotically efficient and architecture-aware code as easy to write as naive code.
 
-I am a Stanford CS PhD candidate advised by <a href="https://fredrikbk.com">Fredrik Kjolstad</a>.
+<!-- **Academic** -->
+I am a PhD candidate in Computer Science at Stanford University, advised by <a href="https://fredrikbk.com">Fredrik Kjolstad</a>.
 I also work closely with <a href="https://andrew.adams.pub">Andrew Adams</a>,
 <a href="https://graphics.stanford.edu/~kayvonf/">Kayvon Fatahalian</a>,
 and <a href="https://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>.
+I received my bachelor's (2021) and master's (2022) from MIT, working under <a href="https://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>, <a href="https://andrew.adams.pub">Andrew Adams</a>, and <a href="https://people.csail.mit.edu/fredo/">Fr&eacute;do Durand</a>.
 
+<!-- **Industry** -->
+I have done research internships on <a href="https://research.nvidia.com/labs/rtr/">NVIDIA's Real-Time Graphics</a> team working on compiling spatial Monte Carlo integrators (2025); on the <a href="https://research.adobe.com/research/systems-languages/">Adobe Research Programming Languages and Performance</a> team working on tree traversal compilers and vector instruction selection (2021 - 2023); and on <a href="https://www.linkedin.com/company/inteonco/">Intel's Inteon</a> team working on automatic scheduling for Halide (2021).
 
-My research interests broadly include domain-specific languages, compilers, and architectures
-for high-performance numerical computing, with an emphasis on visual computing applications.
-I am particularly interested in *performance and productivity*: I aim to make it significantly
-easier to write high-performance code. I currently work on compilers for parallelizing irregular
-computation, such as sparse array programming and high-performance spatial queries (e.g. ray
-tracing and collision detection).
-
-
-I graduated with my bachelor's ('21) and master's ('22) from MIT, working under <a href="https://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>
-and <a href="https://andrew.adams.pub">Andrew Adams</a> on vector instruction selection,
-fixed-point computing systems, and bounds inference. I also interned with Andrew, <a href="https://people.csail.mit.edu/skamil/">Shoaib Kamil</a>,
-and <a href="https://maaz139.github.io">Maaz Bin Safeer Ahmad</a> at Adobe Research in the summers of '21 and '22, on the same topics.
-Part of my undergraduate work on fixed-point compute systems was advised by <a href="https://people.csail.mit.edu/fredo/">Fr&eacute;do Durand</a>.
-
-
-Much of my pre-PhD research was applied to the <a href="https://halide-lang.org/">Halide</a> compiler,
-and I remain somewhat active in the language's development.
-
-I am supported by the <a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-north-america">Qualcomm Innovation Fellowship</a> along with <a href="https://cgyurgyik.github.io/">Chris Gyurgyik</a>. I was previously supported by the <a href = "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program">NSF GFRP</a> and a Stanford School of Engineering fellowship.
+<!-- **Support** -->
+I am grateful for support from the <a href="https://blogs.nvidia.com/blog/graduate-fellowship-recipients-2026-2027/">NVIDIA Graduate Fellowship</a> (2026 - 2027), the <a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-north-america">Qualcomm Innovation Fellowship</a> (2025 - 2026) with <a href="https://cgyurgyik.github.io/">Chris Gyurgyik</a>, the <a href = "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program">NSF GRFP</a> (2022 - 2025), and a Stanford School of Engineering Fellowship (2022 - 2023).
 
 <!-- <br> -->
 
-<h2 class="tableheading" style="padding-top: 10px;">Publications</h2>
+<h3 class="tableheading" style="padding-top: 10px;">Research</h3>
+
+My research interests broadly include domain-specific languages, compilers, and architectures
+for high-performance numerical computing.
+I aim to make it significantly easier to write high-performance code. To that end, I work on
+programming systems that enable the productive exploration of work-efficiency, compute, and
+memory tradeoffs in irregular applications such as sparse array programming and path tracing.
+Some projects I have worked on during my PhD are:
+
+- A push-model user-schedulable language for parallelizing divergent and recursive workloads.
+- A language for exploring the memory layout of tree data structures (recursive ADTs).
+- Compiling spatial queries on sets into asymptotically efficient tree traversals.
+- Automatically determining loop ordering, tiling, and formats for sparse tensor algebra kernels.
+- Compiling and fusing shape operators (e.g., reshape) and convolutions for sparse arrays.
+
+At MIT, I worked on vector instruction selection, fixed-point computing systems, and bounds
+inference, primarily in the context of the <a href="https://halide-lang.org/">Halide</a> compiler.
+
+<h3 class="tableheading" style="padding-top: 10px;">Publications</h3>
 
 <table border="0" style="margin: 0;">
   {% for pub_keyval in site.data.publications %}
@@ -127,7 +134,9 @@ I am supported by the <a href="https://www.qualcomm.com/research/university-rela
 
 <!-- <br> -->
 
-<h2 class="tableheading" style="padding-top: 20px;">Teaching</h2>
+<h3 class="tableheading" style="padding-top: 20px;">Teaching</h3>
+I enjoy teaching and have been involved with compilers classes at both Stanford and MIT. I also TAed MIT's introductory algorithms class.
+
 <table border="0" style="margin: 0;">
 {%- for teaching_keyval in site.data.teaching %}
   {%- assign teaching= teaching_keyval[1] -%}

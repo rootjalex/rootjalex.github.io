@@ -18,14 +18,14 @@ scion:
   #   combines optimization techniques from prior work, achieving Pareto-optimality across
   #   diverse architectures and scenes.
   #   </p>"
-  venue: "arXiv"
-  acronym: Preprint
-  # year: 2025
+  venue: "(to appear in) Proceedings of the ACM on Programming Languages, Volume 10, Issue PLDI"
+  acronym: PLDI
+  year: 2026
   pdf: https://arxiv.org/abs/2511.15028
   # image:
   # code: https://github.com/rootjalex/burrito-artifact
   # acmdl: https://doi.org/10.1145/3689752
-  # month: October
+  month: June
   authors:
     - gyurgyik
     - root
@@ -60,14 +60,14 @@ bonsai:
   #   traversals, and can asymptotically outperform the linear scans and nested-loop joins
   #   that existing systems fall back to when hand-written cases do not apply.
   #   </p>"
-  venue: "arXiv"
-  acronym: Preprint
-  # year: 2025
+  venue: "(to appear in) Proceedings of the ACM on Programming Languages, Volume 10, Issue PLDI"
+  acronym: PLDI
+  year: 2026
   pdf: https://arxiv.org/abs/2511.15000
   # image:
   # code: https://github.com/rootjalex/burrito-artifact
   # acmdl: https://doi.org/10.1145/3689752
-  # month: October
+  month: June
   authors:
     - root
     - gyurgyik
@@ -100,10 +100,10 @@ cgo2026scorch:
     We implement these techniques in Scorch, a prototype sparse tensor compiler for PyTorch that demonstrates their practical effectiveness.
     With only minimal code changes, our approach achieves 1.05-5.80x speedups over PyTorch Sparse on end-to-end tasks including graph neural networks, sparse autoencoders, and sparse transformers, while maintaining the interactive compilation speeds essential for ML development.
     </p>"
-  venue: "(to appear in) Proceedings of the 24th ACM/IEEE International Symposium on Code Generation and Optimization (CGO)"
+  venue: "Proceedings of the 24th ACM/IEEE International Symposium on Code Generation and Optimization (CGO)"
   acronym: CGO
   year: 2026
-  pdf: https://arxiv.org/pdf/2405.16883
+  pdf: /publications/cgo2026-scorch.pdf
   image:
   code: https://github.com/bobbyyyan/scorch
   # acmdl: https://doi.org/10.1145/3689752
