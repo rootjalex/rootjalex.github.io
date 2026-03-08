@@ -22,7 +22,7 @@ Email: ajroot [at] cs [dot] stanford [dot] edu<br/>
 
 <h3 class="tableheading" style="padding-top: 10px;">About</h3>
 
-I build compilers and programming systems that make it tractable to write high-performance code for irregular computations. My goal is to make asymptotically efficient and architecture-aware code as easy to write as naive code.
+I design compilers and programming systems that make it tractable to write high-performance code for irregular computations. My goal is to make asymptotically efficient and architecture-aware code as easy to write as naive code.
 
 <!-- **Academic** -->
 I am a PhD candidate in Computer Science at Stanford University, advised by <a href="https://fredrikbk.com">Fredrik Kjolstad</a>.
