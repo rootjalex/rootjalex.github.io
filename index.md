@@ -35,7 +35,7 @@ I received my bachelor's (2021) and master's (2022) from MIT, working under <a h
 I have done research internships on <a href="https://research.nvidia.com/labs/rtr/">NVIDIA's Real-Time Graphics</a> team working on compiling spatial Monte Carlo integrators (2025); on the <a href="https://research.adobe.com/research/systems-languages/">Adobe Research Programming Languages and Performance</a> team working on tree traversal compilers and vector instruction selection (2021 - 2023); and on <a href="https://www.linkedin.com/company/inteonco/">Intel's Inteon</a> team working on automatic scheduling for Halide (2021).
 
 <!-- **Support** -->
-I am grateful for support from the <a href="https://blogs.nvidia.com/blog/graduate-fellowship-recipients-2026-2027/">NVIDIA Graduate Fellowship</a> (2026 - 2027), the <a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-north-america">Qualcomm Innovation Fellowship</a> (2025 - 2026) with <a href="https://cgyurgyik.github.io/">Chris Gyurgyik</a>, the <a href = "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program">NSF GRFP</a> (2022 - 2025), and a Stanford School of Engineering Fellowship (2022 - 2023).
+I am grateful for support from the <a href="https://blogs.nvidia.com/blog/graduate-fellowship-recipients-2026-2027/">NVIDIA Graduate Fellowship</a> (2026 - 2027), the <a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-north-america">Qualcomm Innovation Fellowship</a> (2025 - 2026), the <a href = "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program">NSF GRFP</a> (2022 - 2025), and a Stanford School of Engineering Fellowship (2022 - 2023).
 
 <!-- <br> -->
 
@@ -49,6 +49,7 @@ memory tradeoffs in irregular applications such as sparse array programming and 
 Some projects I have worked on during my PhD are:
 
 - A push-model user-schedulable language for parallelizing divergent and recursive workloads.
+- Automatic parallelization of (multi-)sparse tensor algebra onto GPUs and multicore CPUs.
 - A language for exploring the memory layout of tree data structures (recursive ADTs).
 - Compiling spatial queries on sets into asymptotically efficient tree traversals.
 - Automatically determining loop ordering, tiling, and formats for sparse tensor algebra kernels.

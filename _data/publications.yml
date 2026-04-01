@@ -1,5 +1,5 @@
 scion:
-  title: Data Layout Polymorphism for Bounding Volume Hierarchies
+  title: Decoupling Data Layouts from Bounding Volume Hierarchies
   # abstract: "<p>
   #   Bounding volume hierarchies are ubiquitous acceleration structures in graphics,
   #   scientific computing, and data analytics. Their performance depends critically on
