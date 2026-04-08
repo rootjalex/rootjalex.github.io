@@ -104,13 +104,15 @@ inference, primarily in the context of the <a href="https://halide-lang.org/">Ha
         {%- endfor -%}
       </td>
     </tr>
-    {% if pub.abstract or pub.pdf or pub.code %}
+    {% if pub.abstract or pub.pdf or pub.preprint or pub.code %}
     <tr style="height: 10%;">
       <td></td>
       <td style="width: 2.5%"></td>
       <td style="padding:0px; margin:0px;">
         {% if pub.pdf %}
           <a href="{{ pub.pdf }}"><img src="/assets/doc.png" alt="pdf" width="20"/> Paper</a>
+        {% elsif pub.preprint %}
+          <a href="{{ pub.preprint }}"><img src="/assets/doc.png" alt="pdf" width="20"/> Preprint</a>
         {% endif %}
         {% if pub.code %}
           <a href="{{ pub.code }}"><img src="/assets/code.png" alt="code" width="20"/> Code</a>

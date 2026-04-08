@@ -1,4 +1,4 @@
-scion:
+pldi2026scion:
   title: Decoupling Data Layouts from Bounding Volume Hierarchies
   # abstract: "<p>
   #   Bounding volume hierarchies are ubiquitous acceleration structures in graphics,
@@ -21,7 +21,7 @@ scion:
   venue: "(to appear in) Proceedings of the ACM on Programming Languages, Volume 10, Issue PLDI"
   acronym: PLDI
   year: 2026
-  pdf: https://arxiv.org/abs/2511.15028
+  preprint: https://arxiv.org/abs/2511.15028
   # image:
   # code: https://github.com/rootjalex/burrito-artifact
   # acmdl: https://doi.org/10.1145/3689752
@@ -40,8 +40,8 @@ scion:
            <br> url={https://arxiv.org/abs/2511.15028},
           <br>}"
 
-bonsai:
-  title: Compiling Set Queries into Work-Efficient Tree Traversals
+pldi2026bonsai:
+  title: "Bonsai: Compiling Queries to Pruned Tree Traversals"
   # abstract: "<p>
   #   Trees can accelerate queries that search or aggregate values over large collections.
   #   They achieve this by storing metadata that enables quick pruning (or inclusion) of
@@ -63,7 +63,7 @@ bonsai:
   venue: "(to appear in) Proceedings of the ACM on Programming Languages, Volume 10, Issue PLDI"
   acronym: PLDI
   year: 2026
-  pdf: https://arxiv.org/abs/2511.15000
+  preprint: https://arxiv.org/abs/2511.15000
   # image:
   # code: https://github.com/rootjalex/burrito-artifact
   # acmdl: https://doi.org/10.1145/3689752
