@@ -60,7 +60,9 @@ inference, primarily in the context of the <a href="https://halide-lang.org/">Ha
 
 <h3 class="tableheading" style="padding-top: 10px;">Publications</h3>
 
-<table border="0" style="margin: 0;">
+<!-- <table border="0" style="margin: 0;"> -->
+<!-- <table border="0" style="margin: 0; border-collapse: collapse;"> -->
+<table border="0" style="margin: 0; border-spacing: 2px 0px;">
   {% for pub_keyval in site.data.publications %}
     {%- assign pub = pub_keyval[1] -%}
     {% if pub.preprint != "y" %}
@@ -128,8 +130,19 @@ inference, primarily in the context of the <a href="https://halide-lang.org/">Ha
       </td>
     </tr>
     {% endif %}
-    <tr aria-hidden="true">
-      <td colspan="3" style="height: 0.01em;"></td>
+
+    {% if pub.award %}
+    <tr>
+      <td style="padding: 0;"></td>
+      <td style="width: 2.5%; padding: 0;"></td>
+      <td style="color: #0096FF; font-weight: bold; padding: 8px 0 0 0; margin: 0; line-height: 1.2;">
+        {{ pub.award }}
+      </td>
+    </tr>
+    {% endif %}
+
+    <tr aria-hidden="true" style="line-height: 0; font-size: 0;">
+      <td colspan="3" style="padding: 0; height: 12px;"></td>
     </tr>
     {% endif %}
     {% endfor %}
