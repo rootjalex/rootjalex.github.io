@@ -19,10 +19,10 @@ pldi2026scion:
     techniques from prior work, achieving Pareto-optimality across diverse architectures
     and scenes.
     </p>"
-  venue: "(to appear in) Proceedings of the ACM on Programming Languages, Volume 10, Issue PLDI"
+  venue: "Proceedings of the ACM on Programming Languages, Volume 10, Issue PLDI"
   acronym: PLDI
   year: 2026
-  preprint: https://arxiv.org/abs/2511.15028
+  pdf: /publications/pldi2026-scion.pdf
   # image:
   code: https://github.com/rootjalex/bonsai/tree/cpg/pldi-artifact
   acmdl: https://doi.org/10.1145/3808253
@@ -61,10 +61,10 @@ pldi2026bonsai:
     asymptotically outperform the linear scans and nested-loop joins that existing systems
     fall back to when hand-written cases do not apply.
     </p>"
-  venue: "(to appear in) Proceedings of the ACM on Programming Languages, Volume 10, Issue PLDI"
+  venue: "Proceedings of the ACM on Programming Languages, Volume 10, Issue PLDI"
   acronym: PLDI
   year: 2026
-  preprint: https://arxiv.org/abs/2511.15000
+  pdf: /publications/pldi2026-bonsai.pdf
   award: "Distinguished Paper Award"
   # image:
   code: https://github.com/rootjalex/bonsai/tree/ajr/pldi-benchmarks

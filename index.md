@@ -32,6 +32,7 @@ and <a href="https://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>.
 I received my bachelor's (2021) and master's (2022) from MIT, working under <a href="https://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>, <a href="https://andrew.adams.pub">Andrew Adams</a>, and <a href="https://people.csail.mit.edu/fredo/">Fr&eacute;do Durand</a>.
 
 <!-- **Industry** -->
+I am currently an intern with <a href="https://research.nvidia.com/research-area/programming-languages-systems">NVIDIA's Programming Systems and Applications Research Group</a>, working on a compiler for load-balancing fused GPU database analytics kernels.
 I have done research internships on <a href="https://research.nvidia.com/labs/rtr/">NVIDIA's Real-Time Graphics</a> team working on compiling spatial Monte Carlo integrators (2025); on the <a href="https://research.adobe.com/research/systems-languages/">Adobe Research Programming Languages and Performance</a> team working on tree traversal compilers and vector instruction selection (2021 - 2023); and on <a href="https://www.linkedin.com/company/inteonco/">Intel's Inteon</a> team working on automatic scheduling for Halide (2021).
 
 <!-- **Support** -->
@@ -45,7 +46,8 @@ My research interests broadly include domain-specific languages, compilers, and 
 for high-performance numerical computing.
 I aim to make it significantly easier to write high-performance code. To that end, I work on
 programming systems that enable the productive exploration of work-efficiency, compute, and
-memory tradeoffs in irregular applications such as sparse array programming and path tracing.
+memory tradeoffs in irregular applications like sparse array programming, database queries,
+and path tracing.
 Some projects I have worked on during my PhD are:
 
 - A push-model user-schedulable language for parallelizing divergent and recursive workloads.
@@ -135,7 +137,7 @@ inference, primarily in the context of the <a href="https://halide-lang.org/">Ha
     <tr>
       <td style="padding: 0;"></td>
       <td style="width: 2.5%; padding: 0;"></td>
-      <td style="color: #0096FF; font-weight: bold; padding: 8px 0 0 0; margin: 0; line-height: 1.2;">
+      <td style="color: #6d09ba; font-weight: bold; padding: 8px 0 0 0; margin: 0; line-height: 1.2;">
         {{ pub.award }}
       </td>
     </tr>
