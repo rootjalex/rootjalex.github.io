@@ -102,6 +102,11 @@ inference, primarily in the context of the <a href="https://halide-lang.org/">Ha
           {%- else %}
             <a href="{{- site.data.authors[author].site -}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
           {%- endif -%}
+
+          {%- if pub.cofirst and forloop.index <= pub.cofirst -%}
+            *
+          {%- endif -%}
+
           {%- if forloop.last == false and forloop.length > 2 -%}
             ,
           {%- endif %}
@@ -147,7 +152,7 @@ inference, primarily in the context of the <a href="https://halide-lang.org/">Ha
       <td colspan="3" style="padding: 0; height: 12px;"></td>
     </tr>
     {% endif %}
-    {% endfor %}
+  {% endfor %}
 </table>
 
 <!-- <br> -->

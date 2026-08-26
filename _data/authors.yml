@@ -33,6 +33,11 @@ cheung:
   site: https://people.eecs.berkeley.edu/~akcheung/
   place: UC Berkeley
 
+chougule:
+  name: Atharva Chougule
+  site: https://atharva151101.github.io/
+  place: Stanford University
+
 fatahalian:
   name: Kayvon Fatahalian
   site: https://graphics.stanford.edu/~kayvonf/
@@ -68,6 +73,11 @@ kjolstad:
   site: https://fredrikbk.com
   place: Stanford University
 
+lacouture:
+  name: Rubens Lacouture
+  site: https://www.linkedin.com/in/lrubens
+  place: Stanford University
+
 liu:
   name: Peiming Liu
   site: https://peimingliu.github.io
@@ -86,6 +96,11 @@ xu:
   name: Anlun Xu
   site: https://www.linkedin.com/in/anlun-xu-14a56614a/
   place: Google Cloud
+
+yadav:
+  name: Rohan Yadav
+  site: https://rohany.github.io/
+  place: Stanford University
 
 yan:
   name: Bobby Yan
