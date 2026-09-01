@@ -1,0 +1,28 @@
+<script>
+  // Keyword lists, one per DSL. Tag a block with `dsl` plus the DSL name:
+  //   <div class="dsl cin"> ... </div>
+  // To add another DSL, add an entry here and use its key as the class.
+  const DSL_KEYWORDS = {
+    cin:  ["forall", "with", "case"],
+    cfir: ["for", "while", "if", "else"],
+    pseudoml: ["func", "match", "with"],
+  };
+
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".dsl").forEach(function (el) {
+      var words = Object.keys(DSL_KEYWORDS)
+        .filter(function (name) { return el.classList.contains(name); })
+        .reduce(function (all, name) { return all.concat(DSL_KEYWORDS[name]); }, []);
+      // .trim() drops the leading/trailing newlines around the <div> tags,
+      // which white-space: pre-wrap would otherwise render as blank lines.
+      var html = el.innerHTML.trim();
+      if (words.length) {
+        html = html.replace(new RegExp("\\b(" + words.join("|") + ")\\b", "g"),
+                            '<span class="kw">$1</span>');
+      }
+      el.innerHTML = html;
+    });
+    // Re-typeset in case MathJax already ran over these blocks.
+    if (window.MathJax && MathJax.typesetPromise) MathJax.typesetPromise();
+  });
+</script>

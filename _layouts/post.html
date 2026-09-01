@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+{%- if page.mathjax -%}
+  {%- include mathjax.html -%}
+{%- endif -%}
+{%- if page.graphviz -%}
+  {%- include graphviz.html -%}
+{%- endif -%}
+{%- if page.dsl -%}
+  {%- include dsl.html -%}
+{%- endif -%}
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">

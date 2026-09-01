@@ -1,0 +1,11 @@
+<script type="module">
+  import { Graphviz } from "https://cdn.jsdelivr.net/npm/@hpcc-js/wasm-graphviz@1/dist/index.js";
+  const graphviz = await Graphviz.load();
+  // textContent (not innerHTML) so Jekyll's entity escaping is already undone.
+  document.querySelectorAll("pre.dot").forEach(function (el) {
+    var svg = graphviz.layout(el.textContent, "svg", "dot");
+    // Drop graphviz's XML prolog/DOCTYPE/comments: the newlines between them
+    // would render as blank lines, since <pre> preserves whitespace.
+    el.innerHTML = svg.slice(svg.indexOf("<svg")).trim();
+  });
+</script>

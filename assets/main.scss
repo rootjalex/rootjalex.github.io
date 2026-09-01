@@ -3,3 +3,76 @@
 ---
 
 @import "minima";
+
+// Graphviz figures: scale to the text column rather than graphviz's own size.
+pre.dot {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 1.5em 0;
+  text-align: center;
+
+  svg { max-width: 100%; height: auto; }
+}
+
+// Little-DSL blocks: <div class="dsl"> ... </div>. Keywords are wrapped in
+// .kw by _includes/dsl.html; inline math uses \( ... \).
+.dsl {
+  white-space: pre-wrap;
+  font-family: Menlo, Consolas, monospace;
+  font-size: 0.85em;
+  line-height: 1.5;
+  background: #fafafa;
+  border-left: 3px solid #d9d9d9;
+  padding: 0.7em 1em;
+  margin: 1.5em 0;
+
+  .kw { color: #2c6fb5; font-weight: bold; }
+}
+
+// Boxes-and-labels figures for tensor storage formats, in the style of
+// Chou et al., OOPSLA 2018. Write a plain markdown table, then tag it
+// with `{: .boxes}`. First column is the label; bold a cell to highlight it.
+// A markdown header row becomes unboxed labels above the boxes. Add
+// `.split-N` to draw a segment divider before data column N (0-indexed).
+table.boxes {
+  width: auto;
+  margin: 1.5em auto;
+  border-collapse: collapse;
+  font-family: Menlo, Consolas, monospace;
+  font-size: 0.85em;
+
+  th {
+    width: 1.7em;
+    padding: 0 0 2px;
+    text-align: center;
+    font-weight: normal;
+    color: #666;
+    border: none;
+    background: none;
+    &:first-child { width: auto; }
+  }
+
+  &.split-2 td:nth-child(4),
+  &.split-2 th:nth-child(4) { border-left: 3px solid #333; }
+
+  td {
+    width: 1.7em;
+    height: 1.7em;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #333;
+    background: #d9d9d9;
+
+    &:empty { background: #fff; border: none; }
+    &:first-child {
+      width: auto;
+      padding-right: 0.5em;
+      text-align: right;
+      border: none;
+      background: none;
+      color: #666;
+    }
+    strong { display: block; margin: -1px; padding: 1px; background: #8fbce6; font-weight: normal; }
+  }
+}
