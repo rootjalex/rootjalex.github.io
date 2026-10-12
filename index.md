@@ -11,7 +11,7 @@ Stanford University<br/>
 Email: ajroot [at] cs [dot] stanford [dot] edu<br/>
 <a href="/assets/cv.pdf">Curriculum Vitae</a><br/>
 <a href="https://scholar.google.com/citations?user=ePuWx50AAAAJ&hl=en&oi=sra">Google Scholar</a><br/>
-<a href="https://github.com/rootjalex/">Github</a>
+<a href="https://github.com/rootjalex/">GitHub</a>
 <div id="siteUpdate" style="text-align: left; font-size: 0.9em; color: #777; margin-top: 0.4em;"></div>
 </td>
 <td valign="top" style="min-width:140px;position: relative;text-align: end;padding-right: 2em;">
@@ -26,14 +26,12 @@ I design compilers and programming systems that make it tractable to write high-
 
 <!-- **Academic** -->
 I am a PhD candidate in Computer Science at Stanford University, advised by <a href="https://fredrikbk.com">Fredrik Kjolstad</a>.
-I also work closely with <a href="https://andrew.adams.pub">Andrew Adams</a>,
-<a href="https://graphics.stanford.edu/~kayvonf/">Kayvon Fatahalian</a>,
-and <a href="https://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>.
-I received my bachelor's (2021) and master's (2022) from MIT, working under <a href="https://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>, <a href="https://andrew.adams.pub">Andrew Adams</a>, and <a href="https://people.csail.mit.edu/fredo/">Fr&eacute;do Durand</a>.
+I also work closely with <a href="https://graphics.stanford.edu/~kayvonf/">Kayvon Fatahalian</a>.
+I received my S.B. (2021) and M.Eng. (2022) from MIT, advised by <a href="https://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>, <a href="https://andrew.adams.pub">Andrew Adams</a>, and <a href="https://people.csail.mit.edu/fredo/">Fr&eacute;do Durand</a>.
 
 <!-- **Industry** -->
-I am currently an intern with <a href="https://research.nvidia.com/research-area/programming-languages-systems">NVIDIA's Programming Systems and Applications Research Group</a>, working on a compiler for load-balancing fused GPU database analytics kernels.
-I have done research internships on <a href="https://research.nvidia.com/labs/rtr/">NVIDIA's Real-Time Graphics</a> team working on compiling spatial Monte Carlo integrators (2025); on the <a href="https://research.adobe.com/research/systems-languages/">Adobe Research Programming Languages and Performance</a> team working on tree traversal compilers and vector instruction selection (2021 - 2023); and on <a href="https://www.linkedin.com/company/inteonco/">Intel's Inteon</a> team working on automatic scheduling for Halide (2021).
+I am currently an intern with <a href="https://research.nvidia.com/research-area/programming-languages-systems">NVIDIA's Programming Systems and Applications</a> group, building a compiler for load-balanced, fused GPU database kernels.
+I have also interned with <a href="https://research.nvidia.com/labs/rtr/">NVIDIA's Real-Time Graphics</a> group (2025), <a href="https://research.adobe.com/research/systems-languages/">Adobe's Programming Languages and Performance</a> group (2021 - 2023), and <a href="https://www.linkedin.com/company/inteonco/">Intel's Inteon</a> team (2021).
 
 <!-- **Support** -->
 I am grateful for support from the <a href="https://blogs.nvidia.com/blog/graduate-fellowship-recipients-2026-2027/">NVIDIA Graduate Fellowship</a> (2026 - 2027), the <a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-north-america">Qualcomm Innovation Fellowship</a> (2025 - 2026), the <a href = "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program">NSF GRFP</a> (2022 - 2025), and a Stanford School of Engineering Fellowship (2022 - 2023).
@@ -42,14 +40,18 @@ I am grateful for support from the <a href="https://blogs.nvidia.com/blog/gradua
 
 <h3 class="tableheading" style="padding-top: 10px;">Research</h3>
 
-My research interests broadly include domain-specific languages, compilers, and architectures
-for high-performance numerical computing.
-I aim to make it significantly easier to write high-performance code. To that end, I work on
-programming systems that enable the productive exploration of work-efficiency, compute, and
-memory tradeoffs in irregular applications like sparse array programming, database queries,
-and path tracing.
-Some projects I have worked on during my PhD are:
+The performance of irregular applications, such as sparse array programming, database queries,
+and path tracing, depends on interacting tradeoffs between work-efficiency, memory layouts, and
+parallelization. I build domain-specific languages and compilers that let programmers explore
+these tradeoffs productively, and that optimize them automatically where possible.
+My past and ongoing projects include:
 
+<!-- - **Fusion** for sparse array programming ([Burrito](/oopsla2024burrito.html)), tree traversals ([Bonsai](/pldi2026bonsai.html)), and relational algebra (Chimi).
+- **Data layout** specifications for trees ([Scion](/pldi2026scion.html)) and tabular data (Pleach).
+- **Effective parallelization** of irregular computations such as sparse tensor algebra ([Nacho](https://arxiv.org/pdf/2604.17198)), relational algebra (Chimi), and spatial queries (Grove).
+- **Vectorization and instruction selection** for digital signal processing ([Rake](/asplos2022.html), [Pitchfork](/asplos2023.html)), path tracing (Grove), and sparse tensor algebra (Taquito). -->
+
+- Memory layout control (and automatic optimization) for tabular data structures.
 - A push-model user-schedulable language for parallelizing divergent and recursive workloads.
 - Automatic parallelization of (multi-)sparse tensor algebra onto GPUs and multicore CPUs.
 - A language for exploring the memory layout of tree data structures (recursive ADTs).
@@ -61,6 +63,7 @@ At MIT, I worked on vector instruction selection, fixed-point computing systems,
 inference, primarily in the context of the <a href="https://halide-lang.org/">Halide</a> compiler.
 
 <h3 class="tableheading" style="padding-top: 10px;">Publications</h3>
+<p style="font-size: 0.9em; color: #777; margin-bottom: 0.5em;">* denotes equal contribution.</p>
 
 <!-- <table border="0" style="margin: 0;"> -->
 <!-- <table border="0" style="margin: 0; border-collapse: collapse;"> -->
