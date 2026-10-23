@@ -4,7 +4,7 @@ asplos2027nacho:
   venue: "(to appear in) Proceedings of the 32nd ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1"
   acronym: ASPLOS
   year: 2027
-  preprint: https://arxiv.org/pdf/2604.17198
+  preprint: https://arxiv.org/abs/2604.17198
   code: https://github.com/rootjalex/nacho
   month: April
   cofirst: 2

@@ -40,18 +40,21 @@ I am grateful for support from the <a href="https://blogs.nvidia.com/blog/gradua
 
 <h3 class="tableheading" style="padding-top: 10px;">Research</h3>
 
-The performance of irregular applications, such as sparse array programming, database queries,
-and path tracing, depends on interacting tradeoffs between work-efficiency, memory layouts, and
-parallelization. I build domain-specific languages and compilers that let programmers explore
-these tradeoffs productively, and that optimize them automatically where possible.
+High-performance applications must balance interacting tradeoffs between work-efficiency,
+memory layouts, and parallelization. I build domain-specific languages and compilers that
+let programmers explore these tradeoffs productively, and that optimize them automatically
+where possible. I am particularly interested in *irregular* applications, such as sparse
+array programming, database queries, and path tracing, where the optimal choices are
+data-dependent, making them especially challenging to optimize.
 My past and ongoing projects include:
 
 <!-- - **Fusion** for sparse array programming ([Burrito](/oopsla2024burrito.html)), tree traversals ([Bonsai](/pldi2026bonsai.html)), and relational algebra (Chimi).
 - **Data layout** specifications for trees ([Scion](/pldi2026scion.html)) and tabular data (Pleach).
-- **Effective parallelization** of irregular computations such as sparse tensor algebra ([Nacho](https://arxiv.org/pdf/2604.17198)), relational algebra (Chimi), and spatial queries (Grove).
-- **Vectorization and instruction selection** for digital signal processing ([Rake](/asplos2022.html), [Pitchfork](/asplos2023.html)), path tracing (Grove), and sparse tensor algebra (Taquito). -->
+- **Utilizing hardware** via effective parallelization techniques for sparse tensor algebra ([Nacho](https://arxiv.org/pdf/2604.17198)), relational algebra (Chimi), and spatial queries (Grove), and vectorization/instruction selection for digital signal processing ([Rake](/asplos2022.html) and [Pitchfork](/asplos2023.html)), path tracing (Grove), and sparse tensor algebra (Taquito).
+-->
 
 - Memory layout control (and automatic optimization) for tabular data structures.
+- Automatic parallelization, loop ordering, and index selection for relational queries on GPUs.
 - A push-model user-schedulable language for parallelizing divergent and recursive workloads.
 - Automatic parallelization of (multi-)sparse tensor algebra onto GPUs and multicore CPUs.
 - A language for exploring the memory layout of tree data structures (recursive ADTs).
