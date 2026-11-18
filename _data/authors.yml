@@ -38,6 +38,11 @@ chougule:
   site: https://atharva151101.github.io/
   place: Stanford University
 
+driscoll:
+  name: Benjamin Driscoll
+  site: https://benjamindriscoll.com
+  place: Stanford University
+
 fatahalian:
   name: Kayvon Fatahalian
   site: https://graphics.stanford.edu/~kayvonf/
@@ -78,6 +83,11 @@ lacouture:
   site: https://www.linkedin.com/in/lrubens
   place: Stanford University
 
+ladsaria:
+  name: Devanshu Ladsaria
+  site: https://www.linkedin.com/in/devanshuladsaria/
+  place: Stanford University
+
 liu:
   name: Peiming Liu
   site: https://peimingliu.github.io
@@ -87,6 +97,26 @@ li:
   name: Yinying Li
   site: https://www.linkedin.com/in/yinying-lisa-li/
   place: Google Research
+
+pharr:
+  name: Matt Pharr
+  site: https://pharr.org/matt/
+  place: NVIDIA
+
+pitclaudel:
+  name: Clément Pit-Claudel
+  site: https://pit-claudel.fr/clement/
+  place: EPFL
+
+radanne:
+  name: Gabriel Radanne
+  site: https://gabriel.radanne.net
+  place: https://gabriel.radanne.net
+
+sawhney:
+  name: Rohan Sawhney
+  site: http://rohansawhney.io
+  place: NVIDIA
 
 sharlet:
   name: Dillon Sharlet

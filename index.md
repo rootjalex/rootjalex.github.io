@@ -4,19 +4,20 @@ layout: home
 ---
 
 <table border="0" cellpadding="0">
+<tr>
 <td valign="top">
 PhD Candidate<br/>
 Department of Computer Science<br/>
 Stanford University<br/>
 Email: ajroot [at] cs [dot] stanford [dot] edu<br/>
 <a href="/assets/cv.pdf">Curriculum Vitae</a><br/>
-<a href="https://scholar.google.com/citations?user=ePuWx50AAAAJ&hl=en&oi=sra">Google Scholar</a><br/>
+<a href="https://scholar.google.com/citations?user=ePuWx50AAAAJ">Google Scholar</a><br/>
 <a href="https://github.com/rootjalex/">GitHub</a>
-<div id="siteUpdate" style="text-align: left; font-size: 0.9em; color: #777; margin-top: 0.4em;"></div>
 </td>
 <td valign="top" style="min-width:140px;position: relative;text-align: end;padding-right: 2em;">
 <img src="/assets/trip.jpg" width="160" alt="Headshot of Alexander J Root">
 </td>
+</tr>
 </table>
 
 
@@ -30,30 +31,32 @@ I also work closely with <a href="https://graphics.stanford.edu/~kayvonf/">Kayvo
 I received my S.B. (2021) and M.Eng. (2022) from MIT, advised by <a href="https://people.csail.mit.edu/jrk/">Jonathan Ragan-Kelley</a>, <a href="https://andrew.adams.pub">Andrew Adams</a>, and <a href="https://people.csail.mit.edu/fredo/">Fr&eacute;do Durand</a>.
 
 <!-- **Industry** -->
-I am currently an intern with <a href="https://research.nvidia.com/research-area/programming-languages-systems">NVIDIA's Programming Systems and Applications</a> group, building a compiler for load-balanced, fused GPU database kernels.
-I have also interned with <a href="https://research.nvidia.com/labs/rtr/">NVIDIA's Real-Time Graphics</a> group (2025), <a href="https://research.adobe.com/research/systems-languages/">Adobe's Programming Languages and Performance</a> group (2021 - 2023), and <a href="https://www.linkedin.com/company/inteonco/">Intel's Inteon</a> team (2021).
+I have interned with <a href="https://research.nvidia.com/research-area/programming-languages-systems">NVIDIA's Programming Systems and Applications</a> group (2026), <a href="https://research.nvidia.com/labs/rtr/">NVIDIA's Real-Time Graphics</a> group (2025), <a href="https://research.adobe.com/research/systems-languages/">Adobe's Programming Languages and Performance</a> group (2021 - 2023), and <a href="https://www.linkedin.com/company/inteonco/">Intel's Inteon</a> team (2021).
 
 <!-- **Support** -->
-I am grateful for support from the <a href="https://blogs.nvidia.com/blog/graduate-fellowship-recipients-2026-2027/">NVIDIA Graduate Fellowship</a> (2026 - 2027), the <a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-north-america">Qualcomm Innovation Fellowship</a> (2025 - 2026), the <a href = "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program">NSF GRFP</a> (2022 - 2025), and a Stanford School of Engineering Fellowship (2022 - 2023).
+I am grateful for support from the <a href="https://blogs.nvidia.com/blog/graduate-fellowship-recipients-2026-2027/">NVIDIA Graduate Fellowship</a> (2026 - 2027), the <a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-north-america">Qualcomm Innovation Fellowship</a> (2025 - 2026), the <a href="https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program">NSF GRFP</a> (2022 - 2025), and a Stanford School of Engineering Fellowship (2022 - 2023).
 
 <!-- <br> -->
 
 <h3 class="tableheading" style="padding-top: 10px;">Research</h3>
 
-High-performance applications must balance interacting tradeoffs between work-efficiency,
-memory layouts, and parallelization. I build domain-specific languages and compilers that
+High-performance applications must balance interacting tradeoffs between work, memory,
+and compute efficiency. I build domain-specific languages and compilers that
 let programmers explore these tradeoffs productively, and that optimize them automatically
-where possible. I am particularly interested in *irregular* applications, such as sparse
-array programming, database queries, and path tracing, where the optimal choices are
+where possible. I am particularly interested in *irregular* and *divergent* applications, such as
+sparse array programming, relational algebra, and spatial queries, where the best choices are
 data-dependent, making them especially challenging to optimize.
-My past and ongoing projects include:
+My past and ongoing projects explore:
 
-<!-- - **Fusion** for sparse array programming ([Burrito](/oopsla2024burrito.html)), tree traversals ([Bonsai](/pldi2026bonsai.html)), and relational algebra (Chimi).
-- **Data layout** specifications for trees ([Scion](/pldi2026scion.html)) and tabular data (Pleach).
-- **Utilizing hardware** via effective parallelization techniques for sparse tensor algebra ([Nacho](https://arxiv.org/pdf/2604.17198)), relational algebra (Chimi), and spatial queries (Grove), and vectorization/instruction selection for digital signal processing ([Rake](/asplos2022.html) and [Pitchfork](/asplos2023.html)), path tracing (Grove), and sparse tensor algebra (Taquito).
--->
+- **Work efficiency** via fusion, for sparse array programming ([Burrito [OOPSLA '24]](/publications/oopsla2024-burrito.pdf)), spatial queries ([Bonsai [PLDI '26]](/publications/pldi2026-bonsai.pdf)), and relational algebra (Chimi, ongoing).
+- **Memory efficiency** via data layout specifications, for trees ([Scion [PLDI '26]](/publications/pldi2026-scion.pdf)) and tabular data (Pleach, ongoing).
+- **Compute efficiency** on CPUs and GPUs via:
+  - Load balancing for sparse tensor algebra ([Nacho [ASPLOS '27]](https://arxiv.org/abs/2604.17198)), spatial queries ([Grove [arXiv '26]](https://arxiv.org/abs/2611.22183)), and relational algebra (Chimi, ongoing).
+  - Vectorization and instruction selection for digital signal processing ([Rake [ASPLOS '22]](/publications/asplos2022-rake.pdf) and [Pitchfork [ASPLOS '23]](/publications/asplos2023-pitchfork.pdf)), spatial queries ([Grove [arXiv '26]](https://arxiv.org/abs/2611.22183)), and sparse tensor algebra (Taquito, ongoing).
 
-- Memory layout control (and automatic optimization) for tabular data structures.
+For spatial queries, the [Bonsai compiler](https://github.com/rootjalex/bonsai) (which includes the Scion, Grove, and Pleach extensions) explores these directions together, letting programmers productively co-optimize work, memory, and compute efficiency.
+
+<!-- - Memory layout control (and automatic optimization) for tabular data structures.
 - Automatic parallelization, loop ordering, and index selection for relational queries on GPUs.
 - A push-model user-schedulable language for parallelizing divergent and recursive workloads.
 - Automatic parallelization of (multi-)sparse tensor algebra onto GPUs and multicore CPUs.
@@ -63,7 +66,7 @@ My past and ongoing projects include:
 - Compiling and fusing shape operators (e.g., reshape) and convolutions for sparse arrays.
 
 At MIT, I worked on vector instruction selection, fixed-point computing systems, and bounds
-inference, primarily in the context of the <a href="https://halide-lang.org/">Halide</a> compiler.
+inference, primarily in the context of the <a href="https://halide-lang.org/">Halide</a> compiler. -->
 
 <h3 class="tableheading" style="padding-top: 10px;">Publications</h3>
 <p style="font-size: 0.9em; color: #777; margin-bottom: 0.5em;">* denotes equal contribution.</p>
@@ -101,10 +104,8 @@ inference, primarily in the context of the <a href="https://halide-lang.org/">Ha
           {%- if forloop.last == true and forloop.length > 1 %}
             and
           {%- endif %}
-          {%- if author == "root" %}
-            <b><font color="#000000">{{ site.data.authors[author].name }}</font></b>
-          {%- elsif author == "root_mit" %}
-            <b><font color="#000000">{{ site.data.authors[author].name }}</font></b>
+          {%- if author == "root" or author == "root_mit" %}
+            <b style="color: #000">{{ site.data.authors[author].name }}</b>
           {%- else %}
             <a href="{{- site.data.authors[author].site -}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
           {%- endif -%}
@@ -125,12 +126,12 @@ inference, primarily in the context of the <a href="https://halide-lang.org/">Ha
       <td style="width: 2.5%"></td>
       <td style="padding:0px; margin:0px;">
         {% if pub.pdf %}
-          <a href="{{ pub.pdf }}"><img src="/assets/doc.png" alt="pdf" width="20"/> Paper</a>
+          <a href="{{ pub.pdf }}"><img src="/assets/doc.png" alt="" width="20"/> Paper</a>
         {% elsif pub.preprint %}
-          <a href="{{ pub.preprint }}"><img src="/assets/doc.png" alt="pdf" width="20"/> Preprint</a>
+          <a href="{{ pub.preprint }}"><img src="/assets/doc.png" alt="" width="20"/> Preprint</a>
         {% endif %}
         {% if pub.code %}
-          <a href="{{ pub.code }}"><img src="/assets/code.png" alt="code" width="20"/> Code</a>
+          <a href="{{ pub.code }}"><img src="/assets/code.png" alt="" width="20"/> Code</a>
         {% endif %}
       </td>
     </tr>
@@ -163,7 +164,7 @@ inference, primarily in the context of the <a href="https://halide-lang.org/">Ha
 
 <!-- <br> -->
 
-<h3 class="tableheading" style="padding-top: 20px;">Teaching</h3>
+<h3 class="tableheading" style="padding-top: 10px;">Teaching</h3>
 I enjoy teaching and have been involved with compilers classes at both Stanford and MIT. I also TAed MIT's introductory algorithms class.
 
 <table border="0" style="margin: 0;">
@@ -185,32 +186,6 @@ I enjoy teaching and have been involved with compilers classes at both Stanford 
 {% endfor %}
 </table>
 
-
-<!-- <div id=siteUpdate style="text-align: center;"> </div> -->
-<div>
-<script>
-const desiredRepo = "rootjalex.github.io"
-const monthNames = ["January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"
-];
-
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
-  if (this.readyState == 4 && this.status == 200) {
-    let repos = JSON.parse(this.responseText);
-    repos.forEach((repo)=>{
-      if (repo.name == desiredRepo)
-      {
-        var lastUpdated = new Date(repo.pushed_at);
-        var day = lastUpdated.getUTCDate();
-        var month = lastUpdated.getUTCMonth();
-        var year = lastUpdated.getUTCFullYear();
-        siteUpdate.innerHTML += (`<em>Site Last Updated ${monthNames[month]} ${year}</em><br>`);
-      }
-    });
-  }
-};
-xhttp.open("GET", "https://api.github.com/users/rootjalex/repos", true);
-xhttp.send();
-</script>
+<div id="siteUpdate" style="text-align: center; font-size: 0.9em; color: #777; margin-top: 3em;">
+<em>Site Last Updated {{ site.time | date: "%B %Y" }}</em>
 </div>

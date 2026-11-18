@@ -1,3 +1,38 @@
+grove:
+  title: A Compilation Model for Divergent Parallel Workloads
+  # abstract:
+  # venue: "arXiv"
+  acronym: arXiv Preprint
+  # year: 2026
+  preprint: https://arxiv.org/abs/2611.22183
+  # month: April
+  authors:
+    - root
+    - gyurgyik
+    - ladsaria
+    - sawhney
+    - jrk
+    - adams
+    - pharr
+    - fatahalian
+    - kjolstad
+
+isomer:
+  title: Decoupling Data Layouts from Algebraic Data Types
+  # abstract:
+  # venue: "arXiv"
+  acronym: arXiv Preprint
+  # year: 2026
+  preprint: https://arxiv.org/abs/2611.19113
+  # month: April
+  authors:
+    - gyurgyik
+    - root
+    - driscoll
+    - radanne
+    - kjolstad
+    - pitclaudel
+
 asplos2027nacho:
   title: Partitioning Unstructured Sparse Tensor Algebra for Load-Balanced Parallel Execution
   # abstract:
