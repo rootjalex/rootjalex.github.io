@@ -35,12 +35,29 @@ isomer:
 
 asplos2027nacho:
   title: Partitioning Unstructured Sparse Tensor Algebra for Load-Balanced Parallel Execution
-  # abstract:
+  # abstract: "<p>
+  #   Sparse tensor algebra is challenging to efficiently parallelize due to
+  #   the irregular, data-dependent, and potentially skewed structure of sparse
+  #   computation. We propose the first partitioning algorithm that provably load
+  #   balances the computation of any sparse tensor algebra expression across
+  #   parallel execution units. Our algorithm generalizes parallel merging
+  #   algorithms to any number of operands, and to multi-dimensional, hierarchical
+  #   sparse data structures. We implement our algorithm within an existing sparse
+  #   tensor algebra compilation framework to automatically generate parallel
+  #   sparse tensor algebra kernels that target multi-core CPUs and GPUs. We show
+  #   that our generated code is competitive with hand-implemented parallelization
+  #   strategies used by vendor libraries like Intel MKL and NVIDIA cuSPARSE
+  #   (geo-means of $0.93$--$5.5\times$) and \textsc{Taco} (geo-means of
+  #   $1.2$--$2.4\times$), and significantly outperforms PyTorch Sparse's
+  #   general-purpose strategies on sparse tensor expressions where specialized
+  #   algorithms have not been developed (geo-means of $2.0$--$9.1\times$).
+  #   </p>"
   venue: "(to appear in) Proceedings of the 32nd ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1"
   acronym: ASPLOS
   year: 2027
-  preprint: https://arxiv.org/abs/2604.17198
+  pdf: /publications/asplos2027-nacho.pdf
   code: https://github.com/rootjalex/nacho
+  acmdl: https://doi.org/10.1145/3845814.3850062
   month: April
   cofirst: 2
   authors:
@@ -50,7 +67,23 @@ asplos2027nacho:
     - yan
     - yadav
     - kjolstad
-  # bibtex:
+  bibtex: "@inproceedings{chougule2027nacho,
+           <br> author = {Chougule, Atharva and Root, Alexander J and Lacouture, Rubens and Yan, Bobby and Yadav, Rohan and Kjolstad, Fredrik},
+           <br> title = {Partitioning Unstructured Sparse Tensor Algebra for Load-Balanced Parallel Execution},
+           <br> year = {2026},
+           <br> isbn = {9798400730122},
+           <br> publisher = {Association for Computing Machinery},
+           <br> address = {New York, NY, USA},
+           <br> url = {https://doi.org/10.1145/3845814.3850062},
+           <br> doi = {10.1145/3845814.3850062},
+           <br> abstract = {Sparse tensor algebra is challenging to efficiently parallelize due to the irregular, data-dependent, and potentially skewed structure of sparse computation. We propose the first partitioning algorithm that provably load balances the computation of any sparse tensor algebra expression across parallel execution units. Our algorithm generalizes parallel merging algorithms to any number of operands, and to multi-dimensional, hierarchical sparse data structures. We implement our algorithm within an existing sparse tensor algebra compilation framework to automatically generate parallel sparse tensor algebra kernels that target multi-core CPUs and GPUs. We show that our generated code is competitive with hand-implemented parallelization strategies used by vendor libraries like Intel MKL and NVIDIA cuSPARSE (geo-means of 0.93--5.5{\texttimes}) and Taco (geo-means of 1.2--2.4{\texttimes}), and significantly outperforms PyTorch Sparse's general-purpose strategies on sparse tensor expressions where specialized algorithms have not been developed (geo-means of 2.0--9.1{\texttimes}).},
+           <br> booktitle = {Proceedings of the 32nd ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1},
+           <br> pages = {675-691},
+           <br> numpages = {17},
+           <br> keywords = {sparse tensor algebra, parallelism, load balance, gpus, multicore cpus, partitioning, compilers},
+           <br> location = {Heraklion, Greece},
+           <br> series = {ASPLOS '27}
+           <br>}"
 
 pldi2026scion:
   title: Decoupling Data Layouts from Bounding Volume Hierarchies
